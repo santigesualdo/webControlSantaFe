@@ -1,0 +1,6 @@
+[1220/175610:ERROR:crash_report_database_win.cc(562)] CreateDirectory C:\Program Files (x86)\reports: Acceso denegado. (0x5)
+[1220/175610:ERROR:registration_protocol_win.cc(82)] TransactNamedPipe: Ha terminado la canalización. (0x6D)
+[1220/175610:ERROR:crash_report_database_win.cc(562)] CreateDirectory C:\Program Files (x86)\reports: Acceso denegado. (0x5)
+[1220/195258:ERROR:crash_report_database_win.cc(562)] CreateDirectory C:\Program Files (x86)\reports: Acceso denegado. (0x5)
+[1220/195258:ERROR:registration_protocol_win.cc(82)] TransactNamedPipe: Ha terminado la canalización. (0x6D)
+[1220/195258:ERROR:crash_report_database_win.cc(562)] CreateDirectory C:\Program Files (x86)\reports: Acceso denegado. (0x5)
