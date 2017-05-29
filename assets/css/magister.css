@@ -343,4 +343,33 @@ a:hover, a:active { color:#fff; text-decoration: underline; }
 }
 
 
+/* Media definitions */		
+
+		@media screen and (max-width: 1680px) {
+
+			.awesomeIcons{
+				font-size: 1em;			
+			}
+		}
+
+		@media screen and (max-width: 736px) {
+
+			.awesomeIcons{
+				font-size: 1em;			
+			}
+		}
+
+		@media screen and (max-width: 360px) {
+			.awesomeIcons{
+				font-size: 1em;			
+			}
+		}
+
+		@media screen and (max-height: 640px) {
+			.awesomeIcons{
+				font-size: 1em;			
+			}
+		}
+
+
 
