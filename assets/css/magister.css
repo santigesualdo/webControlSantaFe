@@ -40,6 +40,18 @@ body {
 	}
 }
 
+@media (max-width: 500px){
+	.footerContainer{
+		bottom: 0em;
+	}
+	#head{
+		padding-top:2px;
+	}
+	h2.subtitle {
+		margin-bottom: 10px;
+	}
+}
+
 /********************************************************/
 /*                    Navigation bar                    */
 /********************************************************/
