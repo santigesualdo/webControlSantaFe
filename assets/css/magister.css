@@ -30,6 +30,16 @@ body {
 	color:grey;
 }
 
+.footerContainer{
+	bottom: 5em;
+}
+
+@media (min-width: 1200px){
+	.footerContainer{
+		bottom: 2em;
+	}
+}
+
 /********************************************************/
 /*                    Navigation bar                    */
 /********************************************************/

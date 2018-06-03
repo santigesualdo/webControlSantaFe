@@ -20,21 +20,28 @@
 	<link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 	<link href='http://fonts.googleapis.com/css?family=Wire+One' rel='stylesheet' type='text/css'>
 </head>
+<style>
+	
+</style>
 
 <!-- use "theme-invert" class on bright backgrounds, also try "text-shadows" class -->
 <body class="theme-invert">
-<div style="position:fixed;width:100%;background-color: rgba(0, 0, 0, 0.7); bottom:0em; ">
-	<div id="myFooter" style="z-index:100; border: dashed 2px white; color:white;vertical-align: middle; text-align: center; ">
-		<p id="footText" style="left:25%;right:25%; font-size: 80%;">Reproductor anclado</p>
+<!--div style="position:fixed;width:100%; background-color: rgba(0, 0, 0, 0.7); bottom:0em; "-->
+<div class="footerContainer" style="position:fixed;width:100%; ">
+	<!--div id="myFooter" style="z-index:100; border: dashed 2px white; color:white;vertical-align: middle; text-align: center; "-->
+	<div id="myFooter" style="z-index:100; vertical-align: middle; text-align: center; ">
+		<p id="footText" style="left:25%;right:25%; font-size: 80%;">
+			<iframe src="https://open.spotify.com/embed?uri=spotify:album:7ECbsjMuZXooMo8pvGfJnH" width="250" height="330" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+		</p>
 	</div>
 </div>
 
 
-<nav class="mainmenu">
+<!--nav class="mainmenu">
 	<div class="container">
 		<div class="dropdown">
 			<button type="button" class="navbar-toggle" data-toggle="dropdown"><span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
-			<!-- <a data-toggle="dropdown" href="#">Dropdown trigger</a> -->
+			
 			<ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
 				<li><a href="#head" class="active">Home</a></li>
 				<li><a href="#about">Banda</a></li>
@@ -43,41 +50,33 @@
 			</ul>
 		</div>
 	</div>
-</nav>
+</nav-->
 
 
 <!-- Main (Home) section -->
 <section class="section" id="head">
 	<div class="container">
-
 		<div class="row">
 			<div class="col-md-10 col-lg-10 col-md-offset-1 col-lg-offset-1 text-center">	
-
-				<!-- Site Title, your name, HELLO msg, etc. -->
 				<h1 class="title">
 					<img id="imgRioloco" src="assets/images/logoblanco500x145.png" style="width:70%;"/>		
 				</h1>
 				<h2 class="subtitle"></h2>
 				<h3 class="tagline" style= "width: 100%; text-align: center; margin: 0;padding: 0;">
 					<div>
-						<i class="awesomeIcon fa fa-facebook " style="width:10%;"></i>
-						<i class="awesomeIcon fa fa-instagram " style="width:10%;"></i>  
-						<i class="awesomeIcon fa fa-soundcloud " style="width:10%;"></i>  
-						<i class="awesomeIcon fa fa-google " style="width:10%;"></i>  
-						<!--li><a href="#" class="icon fa-twitter "><span class="label">Twitter</span></a></li>
-						<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
-						<li><a href="#" class="icon fa-github"><span class="label">GitHub</span></a></li>
-						<li><a href="#" class="icon fa-envelope-o"><span class="label">Email</span></a></li-->
+						<a href="https://www.facebook.com/riolocorocks/" target="_blank"><i class="awesomeIcon fa fa-facebook " style="width:10%;"></i></a>
+						<a href="https://www.instagram.com/rio.loco/" target="_blank"><i class="awesomeIcon fa fa-instagram " style="width:10%;"></i></a>  
+						<a href="mailto:riolocorio@gmail.com" target="_blank"><i class="awesomeIcon fa fa-envelope " style="width:10%;"></i></a> 
+						<a href="https://www.youtube.com/channel/UCck58SGU8rj44NLYXU1UKMQ/videos" target="_blank"><i class="awesomeIcon fa fa-youtube " aria-hidden="true" style="width:10%;"></i></a> 
 					</div>
 				</h3>				
-			</div> <!-- /col -->
-		</div> <!-- /row -->
-	
+			</div>
+		</div> 	
 	</div>
 </section>
 
 <!-- Second (About) section -->
-<section class="section" id="about">
+<!--section class="section" id="about">
 	<div class="container">
 	
 		<h2 class="text-center title">About me</h2>
@@ -94,10 +93,9 @@
 			</div>
 		</div>
 	</div>
-</section>
+</section-->
 
-<!-- Third (Works) section -->
-<section class="section" id="themes">
+<!--section class="section" id="themes">
 	<div class="container">
 	
 		<h2 class="text-center title">More Themes</h2>
@@ -150,10 +148,10 @@
 		</div>
 
 	</div>
-</section>
+</section-->
 
 <!-- Fourth (Contact) section -->
-<section class="section" id="contact">
+<!--section class="section" id="contact">
 	<div class="container">
 	
 		<h2 class="text-center title">Get in touch</h2>
@@ -172,12 +170,7 @@
 		</div>
 
 	</div>
-</section>
-
-
-
-
-<!-- Load js libs only when the page is loaded. -->
+</section-->
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 <script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
 <script src="assets/js/modernizr.custom.72241.js"></script>
