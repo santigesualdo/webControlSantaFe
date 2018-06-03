@@ -21,6 +21,10 @@ body {
 }
 
 
+#imgRioLoco{
+	width:70%;
+}
+
 .awesomeIcon{
 	margin: 1em;
 	color:white;
@@ -34,9 +38,18 @@ body {
 	bottom: 5em;
 }
 
+@media (max-height: 768px){
+	img#imgRioloco{
+		width:60%;
+	}
+}
+
 @media (min-width: 1200px){
 	.footerContainer{
-		bottom: 2em;
+		bottom: 10em;
+	}
+	img#imgRioloco{
+		width:60%;
 	}
 }
 
@@ -50,6 +63,32 @@ body {
 	h2.subtitle {
 		margin-bottom: 10px;
 	}
+}
+
+@media (max-width: 500px){
+	.footerContainer{
+		bottom: 0em;
+	}
+	#head{
+		padding-top:2px;
+	}
+	h2.subtitle {
+		margin-bottom: 10px;
+	}
+	img#imgRioloco{
+		width:45%;
+	}
+	#imgRioLoco{
+		width:45%;
+	}
+	.container{
+		margin-top: 1em;
+	}
+	h1.title {
+		line-height: 0;
+		margin-bottom:0;
+	}
+	
 }
 
 /********************************************************/
@@ -147,7 +186,7 @@ body {
 	top:0;
 } 
 @media (min-width: 768px) {
-	.section { padding-top:160px;}
+	.section { padding-top:60px;}
 }
 
 /* Show one of sections */
