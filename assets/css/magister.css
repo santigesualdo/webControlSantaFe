@@ -37,10 +37,19 @@ body {
 .footerContainer{
 	bottom: 5em;
 }
+.icono{
+	width: 8%;
+	font-size: 1.5em;
+}
 
 @media (max-height: 768px){
 	img#imgRioloco{
 		width:60%;
+	}
+	
+	.icono{
+		width: 8%;
+		font-size: 1.5em;
 	}
 }
 
@@ -63,6 +72,12 @@ body {
 	h2.subtitle {
 		margin-bottom: 10px;
 	}
+
+	.icono{
+		width: 8%;
+		font-size: 1.35em;
+	}
+	    
 }
 
 @media (max-width: 500px){
