@@ -1,65 +1,502 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="utf-8">
-	<meta name="viewport"    content="width=device-width, initial-scale=1.0">
-	<meta name="description" content="">
-	<meta name="author"      content="Umbral Estudio Creativo">
-	
-	<title>Rio Loco</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
-	<link rel="shortcut icon" href="assets/images/gt_favicon.png">
-	
-	<!-- Bootstrap itself -->
-	<link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+	<title>Control24</title>
 
-	<!-- Custom styles -->
-	<link rel="stylesheet" href="assets/css/magister.css">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">  
-	<!-- Fonts -->
-	<link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-	<link href='http://fonts.googleapis.com/css?family=Wire+One' rel='stylesheet' type='text/css'>
+	<!-- Bootstrap -->
+	<link type="text/css" rel="stylesheet" href="css/bootstrap.min.css" />
+
+	<!-- Owl Carousel -->
+	<link rel="stylesheet prefetch" href="css/owl.carousel.min.css">
+	<link rel="stylesheet prefetch" href="css/owl.theme.default.min.css">
+
+	<!-- Font Awesome Icon -->
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+
+	<!-- Custom stlylesheet -->
+	
+	<link type="text/css" rel="stylesheet" href="css/fonts.css" />
+	<link type="text/css" rel="stylesheet" href="css/style.css" />
+	<link rel=icon href="img/favicon-01.png" sizes="16x16" type="image/png">
+
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-126382440-1"></script>
+	<script>
+	 window.dataLayer = window.dataLayer || [];
+	 function gtag(){dataLayer.push(arguments);}
+	 gtag('js', new Date());
+
+	 gtag('config', 'UA-126382440-1');
+	</script>
 </head>
-<style>
-	
-</style>
+
+<body>
+	<div id="hideAll">
+		<div id="loader" class="loader"></div>
+		<script>
+		  const playAll = true;
+
+	      const cols = 1;
+	      const gridEl = document.getElementById('loader');
+	      const gridW = Math.ceil(gridEl.offsetWidth / cols);
+	      const gridH = document.documentElement.clientHeight;
+
+	      const SETTINGS = [
+	        {
+	          instances: {
+	            spring: null,
+	            spinner: null
+	          },
+	          rebound: {
+	            tension: 20,
+	            friction: 10
+	          },
+	          spinner: {
+	            canvasW: gridW,
+	            canvasH: gridH,
+	            radius: 100,
+	            sides: 6,
+	            depth: 15,
+	            colors: {
+	              background: '#FFFFFF',
+	              stroke: null,
+	              base: null,
+	              child: '#FF0000'
+	            },
+	            alwaysForward: false, // When false the spring will reverse normally.
+	            restAt: 0.6, // A number from 0.1 to 0.9 || null for full rotation
+	            renderBase: false // Optionally render basePolygon
+	          }
+	        }
 
 
-<body class="theme-invert">
-
-	<section class="section" id="head">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-10 col-lg-10 col-md-offset-1 col-lg-offset-1 text-center">	
-					<h1 class="title">
-						<img id="imgRioloco" src="assets/images/logoblanco500x145.png"/>		
-					</h1>
-					<h2 class="subtitle"></h2>
-					<h3 class="tagline" style= "width: 100%; text-align: center; margin: 0;padding: 0;">
-						<div>
-							<a class="icono" href="https://www.facebook.com/riolocorocks/" target="_blank"><i class="awesomeIcon fa fa-facebook"></i></a>
-							<a class="icono" href="https://www.instagram.com/rio.loco/" target="_blank"><i class="awesomeIcon fa fa-instagram"></i></a>  
-							<a class="icono" href="https://open.spotify.com/artist/5a9TikSlIAKDPFLlrvN58f?si=IwqSIUDrSwq0s8eO_bH6hQ" target="_blank"><i class="awesomeIcon fa fa-spotify " aria-hidden="true"></i></a> 							
-							<a class="icono" href="https://www.youtube.com/channel/UCck58SGU8rj44NLYXU1UKMQ/videos" target="_blank"><i class="awesomeIcon fa fa-youtube " aria-hidden="true"></i></a> 
-							<a class="icono" href="mailto:riolocorio@gmail.com" target="_blank"><i class="awesomeIcon fa fa-envelope"></i></a> 
-						</div>
-					</h3>				
-				</div>
-			</div> 	
-		</div>
-	</section>	
-
-	<!--div style="position:fixed;width:100%; background-color: rgba(0, 0, 0, 0.7); bottom:0em; "-->
-	<div class="footerContainer" style="width: 100%; text-align: center; margin: 0;padding: 0;">
-		<!--MENTE EN BLANCO-->
-		<iframe name="mini" style="border:0px;width:366px;height:100px;" src="http://widget.cdbaby.com/a5259078-d78d-429e-a859-1f082f0dadaf/mini/dark/opaque"></iframe>
-		<!--DEMO-->
-		<!--iframe name="mini" style="border:0px;width:100%;height:100px;" src="http://widget.cdbaby.com/dd6a5213-1807-48d1-a822-7d162c3f9fbf/mini/dark/opaque"></iframe-->		
+	      ];
+	    </script>
 	</div>
+	<!-- Header -->
+	<header class="mainHeader redDarkGradient">
+		<table class="altoPadre" style="table-layout: fixed; width: 100%;">
+			<thead class="altoPadre">
+				<tr class="altoPadre">
+					<th id="columnLogo" class="altoPadre" >
+						<div id="logoHeader" class="altoPadre" style="width: 100%; top:0;" >
+							<a class="altoPadre" href="#section0" >
+								<img id="logo" class="altoPadre" src="img/logo.svg"></img>
+							</a>							
+							<!--img id="logoFerz" style="height: inherit;" onclick="" src="images/ferz_logo_text.png"></img-->
+						</div>									
+					</th>
+					<th id="columnNav" class="altoPadre"  >
+						<div id="navMenu" >
+							<nav class="cl-effect-21" >
+								<ul>
+									<li><a class="textMenu" href="#section1">QUIÉNES SOMOS</a></li>
+									<li><a class="textMenu" href="#section2">SERVICIOS</a></li>
+									<li><a class="textMenu" href="#section3">INSTALADORES</a></li>
+									<li><a class="textMenu" href="#section4">CONTACTO</a></li>											
+								</ul>
+							</nav>
+						</div>	
+						<script>
+							function openNav() {
+								document.getElementById("myNav").style.display = "none";
+								document.getElementById("myNav").style.height = "100%";
+							    $("#menuNavLittle").fadeOut(500);
+							    $("#myNav").fadeIn(500);
+							}
 
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-	<script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
-	<script src="assets/js/modernizr.custom.72241.js"></script>
-	<!-- Custom template scripts -->
+							function closeNav() {
+	    						$("#menuNavLittle").fadeIn(500);
+							    $("#myNav").fadeOut(500, function(){
+							    	document.getElementById("myNav").style.height = "0%";
+							    });
+							}
+						</script>
+						<div id="navIconMenu" >
+							<a id="menuNavLittle" onclick="openNav()">
+								<img src="img/menuMobile.png" width="31px" height="24px" />
+							</a>
+						</div>
+						<div id="myNav" class="overlay redGradient">
+						  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+						  <div class="overlay-content">
+						  	<ul id="listaNav" style="display:block;">
+								<li><a class="textMenu" onclick="closeNav()" href="#section1">QUIÉNES SOMOS</a></li>
+								<li><a class="textMenu" onclick="closeNav()" href="#section2">SERVICIOS</a></li>
+								<li><a class="textMenu" onclick="closeNav()" href="#section3">INSTALADORES</a></li>
+								<li><a class="textMenu" onclick="closeNav()" href="#section4">CONTACTO</a></li>	
+							</ul>
+						  </div>
+						</div>															
+					</th>
+				</tr>
+			</thead>
+			<tbody>
+			</tbody>
+		</table>
+	</header>
+	<!--header end-->
+	
+	<!-- Main Slider -->
+	<span class="anchor" id="section0"></span>
+	<div id="mainSlider" class="section">
+			<div class="owl-carousel owl-theme">
+			  <div id="slide1" class="img-wrap">
+	  	  		<img></img>
+				<div id="slide1content" class="carousel-content">
+					<h1 id="slide1contentTitle" class="title">CONOCÉ NUESTROS SERVICIOS</h1>
+					<h2 id="slide1contentSub">DESCUBRÍ UN SISTEMA DE MONITOREO WEB AL ALCANCE DE TODOS</h2>
+				</div>
+			  </div>
+			  <div id="slide2" class="img-wrap">
+			  	<img></img>
+				<div id="slide2content" class="carousel-content">
+					<h1 id="slide2contentTitle" class="title">SMARTPANICS</h1>
+					<h2 id="slide2contentSub">DESCUBRÍ LA SEGURIDAD AL ALCANCE DE TUS MANOS</h2>
+					<div id="butDemoContainer">
+						<a href="http://190.57.227.178:85/Landing_LND/" target="_blank">
+							<button id="butDemo" class="buttonAntiman button--antiman button--round-l button--text-medium ">SOLICITÁ TU DEMO</button>
+						</a>
+					</div>			
+				</div>			
+			  </div>
+			  <div id="slide3" class="img-wrap">
+	  	  		<img></img>
+				<div id="slide3content" class="carousel-content">
+					<h1 id="slide3contentTitle" class="title">VIGICONTROL</h1>
+					<h2 id="slide3contentSub">CONTRATÁ ESTE SERVICIO ONLINE PARA CONTROL DE RONDAS</h2>
+				</div>
+			  </div>
+			  <div id="slide4" class="img-wrap">
+			  	<img></img>
+				<div id="slide4content" class="carousel-content">
+					<h1 id="slide4contentTitle" class="title">TRACKGUARD</h1>
+					<h2 id="slide4contentSub">CONTRATÁ ESTE SERVICIO ONLINE QUE PERMITE EL MONITOREO DE VEHÍCULOS, PERSONAS Y MASCOTAS CON DISPOSITIVOS GPS/GPRS</h2>
+				</div>
+			  </div>		  		  
+			</div>	
+	</div>
+	<!-- Main Slider end-->
+
+	<!-- quienessomos -->
+	<span class="anchor scrollLink" id="section1"></span>
+	<div id="quienessomos" class="section sectionBackImageResponsive ">
+		<h1 id="quienesSomosTitle" class="sectionTitle white">QUIÉNES SOMOS</h1>
+		<hr class="espacioGuion white"></hr>
+		<div class="recuadroTexto redGradient">
+			<h2 class="textQuienesSomos">
+				<strong>Control 24</strong> lleva casi 20 años brindando <b>soluciones de Monitoreo de alarmas para Instaladores</b>.  Con una plataforma integral permite acceder al sistema y realizar por sí mismo el proceso de alta, baja y edición de cuentas propias, chequeo de estados de los sistemas de sus abonados, obtener reportes e informes históricos de eventos globales o por cuenta, personalizados con logotipo y datos propios.
+			</h2>
+		</div>
+	</div>
+	<!-- /quienessomos end-->
+
+	<!-- servicios -->
+	<span class="anchor scrollLink" id="section2"></span>
+	<div id="servicios" class="section">
+		<h1 id="serviciosTitle" class="sectionTitle red">SERVICIOS</h1>
+		<hr class="espacioGuion darkred"></hr>
+		<div class="recuadroServicios">
+			<div class="horizontal">
+				<div class="vertical">
+					<img class="serviciosImg" src="img/servicios_monitoreo.png" />
+				</div>											
+				<div class="contenedorTextServicios">	
+					<h2 class="titleServicios">Monitoreo</h2>
+					<h2 class="textServicios" >Módulo central del sistema, que <strong>administra cuentas</strong> y todos sus datos. <strong>Genera y envía reportes</strong> en forma manual y/o también en forma automática</h2>
+				</div>
+			</div>					
+		</div>
+		<div class="recuadroServicios">
+			<div class="horizontal">
+				<div class="vertical">
+					<img class="serviciosImg" src="img/servicios_smartpanics.png" />
+				</div>											
+				<div class="contenedorTextServicios">	
+					<h2 class="titleServicios">SmartPanics</h2>
+					<h2 class="textServicios">
+						La App le entrega a sus clientes un <strong>servicio integral de seguridad</strong>, comprende también desde botones de emergencia hasta la posibilidad de <strong>gestionar y ver sus grupos, móviles y sus cámaras</strong>
+					</h2>
+				</div>
+			</div>					
+		</div>		
+		<div class="recuadroServicios">
+			<div class="horizontal">
+				<div class="vertical">
+					<img class="serviciosImg" src="img/servicios_videoVerificacion.png" />
+				</div>											
+				<div class="contenedorTextServicios">	
+					<h2 class="titleServicios">VideoVerificacion</h2>
+					<h2 class="textServicios" >
+						Diseñado para integrar video a los eventos de alarma recibidos en la estación central de manera simple e intuitiva, a requerimiento del operador o simplemente siguiendo rutinas de verificación o control periódico
+					</h2>
+				</div>
+			</div>					
+		</div>
+		<div class="recuadroServicios">
+			<div class="horizontal">
+				<div class="vertical">
+					<img class="serviciosImg" src="img/servicios_trackGuard.png" />
+				</div>											
+				<div class="contenedorTextServicios">	
+					<h2 class="titleServicios">TrackGuard</h2>
+					<h2 class="textServicios" >
+						Permite realizar el seguimiento y monitoreo móvil de los equipos montados en vehículos, cargas e incluso en personas (Msd) y relacionarlos a cuentas de abonado del sistema central
+					</h2>
+				</div>
+			</div>					
+		</div>
+		<div class="recuadroServicios">
+			<div class="horizontal">
+				<div class="vertical">
+					<img class="serviciosImg" src="img/servicios_vigiControl.png" />
+				</div>											
+				<div class="contenedorTextServicios">	
+					<h2 class="titleServicios">VigiControl</h2>
+					<h2 class="textServicios" >
+						Sistema para control de rondas con monitoreo en línea para vigiladores y personal de guardia. Sistema para control de rondas con monitoreo en línea para vigiladores y personal de guardia
+					</h2>
+				</div>
+			</div>					
+		</div>
+		<div class="recuadroServicios">
+			<div class="horizontal">
+				<div class="vertical">
+					<img class="serviciosImg" src="img/servicios_accesoWebCliente.png" />
+				</div>											
+				<div class="contenedorTextServicios">	
+					<h2 class="titleServicios">Acceso Web Cliente</h2>
+					<h2 class="textServicios" >
+						Accediendo vía Web podrán obtener información gráfica del estado de sus residencias o sucursales con indicación del estado de cada una (activado o desactivado) y los eventos de alarma recibidas para cada una de las cuentas
+					</h2>
+				</div>
+			</div>					
+		</div>
+		<div class="recuadroServicios">
+			<div class="horizontal">
+				<div class="vertical">
+					<img class="serviciosImg" src="img/servicios_accesoWebClienteMobile.png" />
+				</div>											
+				<div class="contenedorTextServicios">	
+					<h2 class="titleServicios">Acceso Web Cliente Mobile</h2>
+					<h2 class="textServicios" >
+						Este módulo ha sido especialmente diseñado para operar teniendo en cuenta la alta disponibilidad de teléfonos inteligentes, smartphone y tablets entre los usuarios corporativos y finales los cuales deseanacceder a información de calidad sobre su sistema de alarmas protegido	
+					</h2>	
+				</div>
+			</div>					
+		</div>
+		<div class="recuadroServicios">
+			<div class="horizontal">
+				<div class="vertical">
+					<img class="serviciosImg" src="img/servicios_autoMonitoreo.png" />
+				</div>											
+				<div class="contenedorTextServicios">	
+					<h2 class="titleServicios">Auto Monitoreo</h2>
+					<h2 class="textServicios" >
+						Entregamos a sus clientes la posibilidad de automonitorear sus alarmas, cámaras y grupo familiar mediante el envío de mensajes push
+					</h2>
+				</div>
+			</div>					
+		</div>
+		<div class="recuadroServicios">
+			<div class="horizontal">
+				<div class="vertical">
+					<img class="serviciosImg" src="img/servicios_logger.png" />
+				</div>											
+				<div class="contenedorTextServicios">	
+					<h2 class="titleServicios">Logger</h2>
+					<h2 class="textServicios" >
+						Todas las llamadas que egresan de la estación central serán digitalizadas y grabadas a disco. El operador puede relacionar la llamada al abonado. Pueden supervisarse las llamadas en curso, localmente o vía Internet
+					</h2>
+				</div>
+			</div>					
+		</div>
+		<div class="recuadroServicios">
+			<div class="horizontal">
+				<div class="vertical">
+					<img class="serviciosImg" src="img/servicios_servicioTecnico.png" />
+				</div>											
+				<div class="contenedorTextServicios">	
+					<h2 class="titleServicios">Servicio Técnico</h2>
+					<h2 class="textServicios" >
+						Gerenciar integralmente el servicio técnico al cliente, permitiendo ingresar pedidos de service desde múltiples sectores, programar las rutinas de servicio periódico preventivo, asignar técnicos, móviles y materiales.
+					</h2>
+				</div>
+			</div>					
+		</div>																							
+	</div>
+	<!-- /servicios end -->
+
+	<!-- Instaladores -->
+	<span class="anchor scrollLink" id="section3"></span>
+	<div id="instaladores" class="section sectionBackImageResponsive">
+		<div style="position:absolute; width: 100%;">
+			<img id="insta" class="decoImg" src="img/deco2.png"/>
+		</div>			
+		<h1 id="instaladoresTitle" class="sectionTitle white">INSTALADORES</h1>
+		<hr class="espacioGuion white"></hr>
+		<div class="instaladoresContent">
+			<h1 id="instaladoresContentTittle" >TRABAJÁ CON NOSOTROS</h1>
+			<h2 id="instaladoresContentSubtittle">Desde el monitoreo 24 horas de tus cuentas, hasta nuestra APP de seguridad podemos solucionar distintos aspectos de tu negocio para que vendas más y mejor.</h2>
+			<div id="instaladoresButContainer">
+				<a href="miscuentas" target="_blank"><button  id="butInsta" class="buttonAntiman button--antiman button--round-l button--text-medium "><i></i><span>IR AL DESKTOP</span></button></a>		
+			</div>
+
+		</div>
+	</div>
+	<!-- Instaladores end -->
+
+
+	<!-- Contact -->
+	<span class="anchor" id="section4"></span>
+	<div id="contacto" class="section bg-greycustom">
+		<h1 id="contactoTitle" class="sectionTitle white">CONTACTO</h1>
+		<hr class="espacioGuion darkred"></hr>
+		<div style="position:absolute; width: 100%;">
+			<img id="decoContacto" class="decoImg" src="img/deco.png"/>
+		</div>
+		<div class="contactoContainer">
+			<table id="bigContactoTable">
+				<tr class="rowIcons">
+					<th class="columnIcon">
+						<div class="horizontal">
+							<div class="vertical">
+								<img class="" src="img/contacto-02.png" />
+							</div>
+						</div>
+					</th>
+					<th class="columnIcon">
+						<div class="horizontal">
+							<div class="vertical">
+								<a href="https://www.google.com.ar/maps/place/Hip%C3%B3lito+Yrigoyen+3554,+S3000BMB+Santa+Fe/@-31.639887,-60.7199497,17z/data=!3m1!4b1!4m5!3m4!1s0x95b5a9b5bb500b7b:0x4006a167a2a0ec96!8m2!3d-31.639887!4d-60.717761" target="_blank"><img class="" src="img/contacto-03.png" /></a>
+							</div>
+						</div>
+					</tc>
+					<th class="columnIcon">
+						<div class="horizontal">
+							<div class="vertical">
+								<img class="" src="img/contacto-04.png" />
+							</div>
+						</div>	
+					</th>															
+				</tr>
+				<tr class="rowContacto">
+					<th class="columnIcon">
+						<div class="horizontal">
+							<div class="vertical">
+								<h3 class="textContactoIcon">(+54) 342 455 6565</h3>
+							</div>
+						</div>																		
+					</th>					
+					<th class="columnIcon">
+						<div class="horizontal">
+							<div class="vertical">
+								<h3 class="textContactoIcon" style="line-height: 1.4em;">Hipólito Irigoyen 3554<br>Santa Fe, Capital</h3>
+							</div>
+						</div>							
+					</th>					
+					<th class="columnIcon">
+						<div class="horizontal">
+							<div class="vertical">
+								<h3 class="textContactoIcon">info@control-24.com.ar</h3>
+							</div>
+						</div>							
+						
+					</th>					
+				</tr>
+			</table>
+			<div id="smallContacto">
+				<div id="textUbicacion">
+					<div class="contactoImgContainer">
+						<img class="contactImgIcon" src="img/contacto-02.png" />
+					</div>
+					<h3 class="textContactoIcon">(+54) 342 455 6565</h3>
+					<div class="contactoImgContainer">
+						<a href="https://www.google.com.ar/maps/place/Hip%C3%B3lito+Yrigoyen+3554,+S3000BMB+Santa+Fe/@-31.639887,-60.7199497,17z/data=!3m1!4b1!4m5!3m4!1s0x95b5a9b5bb500b7b:0x4006a167a2a0ec96!8m2!3d-31.639887!4d-60.717761" target="_blank">
+							<img class="contactImgIcon" src="img/contacto-03.png" />
+						</a>
+					</div>						
+					<h3 class="textContactoIcon" style="line-height: 1.4em;">Hipólito Irigoyen 3554<br>Santa Fe, Capital</h3>
+					<div class="contactoImgContainer">
+						<img class="contactImgIcon" src="img/contacto-04.png" />
+					</div>
+					<h3 class="textContactoIcon">info@control-24.com.ar</h3>	
+				</div>
+				<!--div class="smallContainer">
+					<h3 class="textContactoIcon">(+54) 342 455 6565</h3>
+				</div>
+				<div class="smallContainer">
+					<h3 class="textContactoIcon" style="line-height: 1.4em;">Hipólito Irigoyen 3554<br>Santa Fe, Capital</h3>
+				</div>
+				<div class="smallContainer">
+					<img class="" src="img/contacto-04.png" />
+					<h3 class="textContactoIcon">info@control-24.com.ar</h3>		
+				</div-->				
+			</div>
+			<form id="formToHide" class="contact-form" action="https://formspree.io/anibal@control-24.com.ar" method="POST">
+				<table>
+					<tr>
+						<tc id="contactoInput" ">
+							<input type="text" name="Nombre y Apellido" class="input" placeholder="Nombre y Apellido">
+							<input type="text" name="Empresa" class="input" placeholder="Empresa">
+							<input type="text" name="Telefono" class="input" placeholder="Telefono">
+							<input type="email" name="E-Mail" class="input" placeholder="E-Mail">
+						</tc>
+						<tc id="contactoTextArea">
+							<textarea id="textAreaContacto" class="input" name="Mensaje" placeholder="Mensaje"></textarea>
+							<button id="butConsulta" target="_blank" class="buttonAntiman button--antiman button--round-l button--text-medium"><i></i><span>ENVIAR CONSULTA</span></button>
+						</tc>
+					</tr>
+				</table>
+			</form>
+			<div style="display:none;" id="thankyou_message">
+				<h1 style="margin-bottom:1em;">Gracias por el mensaje, pronto nos contactaremos.</h1>
+			</div>
+		</div>
+	</div>		
+	<!-- /Contact end-->
+	<!-- Footer -->
+	<footer id="footer" class="sm-padding footerGradient">
+		<!-- Container -->
+		<div class="footerContainer">
+			<div class="socialContainer" >
+				<div>
+					<h1 class="socialText"><strong>Seguinos</strong><br>en las redes!</h1>
+				</div>				
+				<a target="_blank" href="https://www.facebook.com/MonitoreoControl24/"><img class="footerImg" src= "img/fb.png"/></a>
+				<a target="_blank" href="https://www.instagram.com/control24monitoreo"><img class="footerImg" src= "img/insta.png" /></a>
+				<a target="_blank" href="https://www.youtube.com"><img class="footerImg" src= "img/yt.png"/></a>
+			</div>
+			<div class="footerSociosContainer">
+				<a href="http://qr.afip.gob.ar/?qr=hfkbjhl_rvy7nY3vuIs7vg,," target="_blank"><img id="imgdatafiscal" class="imgSocios" src= "img/datafiscal.jpg"/></a>
+				<a href="http://alas-la.org/directorio/" target="_blank"><img class="imgSocios" src= "img/footer_alas.png"/></a>
+				<a href="http://www.casel.org.ar/about/socios.php" target="_blank"><img class="imgSocios" src= "img/footer_casel.png"/></a>
+			</div>
+			<div style="width:100%; margin:auto; position:absolute; right:5em; bottom:1em;">
+				<p style="margin-bottom: 0; text-align: right; margin-right: 1em; font-size: 0.60em;color:white; ">&copy; by <a style="text-decoration: none; color:white;" href="https://www.instagram.com/umbralestudiocreativo"><b>Umbral Estudio Creativo</b></a></p>
+			</div>
+		<!-- /Container -->
+	</footer>
+	<!-- /Footer end-->
+
+	<!-- Back to top -->
+	<div id="back-to-top"></div>
+	<!-- /Back to top -->
+
+	<!-- jQuery Plugins -->
+	<script type="text/javascript" src="js/main.grid.js"></script>
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/owl.carousel.min.js"></script>
+	<script type="text/javascript" src="js/jquery.magnific-popup.js"></script>
+	<script type="text/javascript" src="js/modernizr.custom.js"></script>
+	<script type="text/javascript" src="js/skel.min.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>	
 </body>
 </html>
