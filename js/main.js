@@ -29,6 +29,8 @@ function setSkrollr(){
 		$("#loader").delay(600).fadeOut();
 		$("#hideAll").delay(600).fadeOut();
 		$('body').css("overflow-y","auto");
+		$("#sliderMask").delay(600).fadeIn();
+		$('#sliderMask').css("z-index","97");
 	});
 
 	///////////////////////////
