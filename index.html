@@ -96,10 +96,11 @@
 						<div id="navMenu" >
 							<nav class="cl-effect-21" >
 								<ul>
-									<li><a class="textMenu" href="#section1">QUIÉNES SOMOS</a></li>
-									<li><a class="textMenu" href="#section2">SERVICIOS</a></li>
-									<li><a class="textMenu" href="#section3">INSTALADORES</a></li>
-									<li><a class="textMenu" href="#section4">CONTACTO</a></li>											
+									<li><a class="textMenu" href="#section0">INICIO</a></li>|
+									<li><a class="textMenu" href="#section1">SERVICIOS</a></li>|
+									<li><a class="textMenu" href="#section2">QUIÉNES SOMOS</a></li>|
+									<li><a class="textMenu" href="#section3">CONTACTO</a></li>|
+									<li><a class="textMenu" href="">UNITE A CSF</a></li>
 								</ul>
 							</nav>
 						</div>	
@@ -127,10 +128,11 @@
 						  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
 						  <div class="overlay-content">
 						  	<ul id="listaNav" style="display:block;">
-								<li><a class="textMenu" onclick="closeNav()" href="#section1">QUIÉNES SOMOS</a></li>
-								<li><a class="textMenu" onclick="closeNav()" href="#section2">SERVICIOS</a></li>
-								<li><a class="textMenu" onclick="closeNav()" href="#section3">INSTALADORES</a></li>
-								<li><a class="textMenu" onclick="closeNav()" href="#section4">CONTACTO</a></li>	
+								<li><a class="textMenu" onclick="closeNav()" href="#section0">INICIO</a></li>
+								<li><a class="textMenu" onclick="closeNav()" href="#section1">SERVICIOS</a></li>
+								<li><a class="textMenu" onclick="closeNav()" href="#section2">QUIÉNES SOMOS</a></li>
+								<li><a class="textMenu" onclick="closeNav()" href="#section3">CONTACTO</a></li>	
+								<li><a class="textMenu" onclick="closeNav()" href="">UNITE A CSF</a></li>	
 							</ul>
 						  </div>
 						</div>															
@@ -189,22 +191,25 @@
 
 	<!-- quienessomos -->
 	<span class="anchor scrollLink" id="section1"></span>
-	<div id="quienessomos" class="section  ">
-		<div style="height: 500px;">
+	<div id="servicios" class="section  ">
+		<div style="" class="horizontal">
+			<h1 id="serviciosTitle" class="sectionTitle darkblue">SERVICIOS</h1>
 		</div>
-		<!--h1 id="quienesSomosTitle" class="sectionTitle white">QUIÉNES SOMOS</h1>
-		<hr class="espacioGuion white"></hr>
-		<div class="recuadroTexto redGradient">
-			<h2 class="textQuienesSomos">
-				<strong>Control 24</strong> lleva casi 20 años brindando <b>soluciones de Monitoreo de alarmas para Instaladores</b>.  Con una plataforma integral permite acceder al sistema y realizar por sí mismo el proceso de alta, baja y edición de cuentas propias, chequeo de estados de los sistemas de sus abonados, obtener reportes e informes históricos de eventos globales o por cuenta, personalizados con logotipo y datos propios.
-			</h2>
-		</div-->
-	</div>
-	<!-- /quienessomos end-->
-
-	<!-- servicios -->
-	<span class="anchor scrollLink" id="section2"></span>
-	<div id="servicios" class="section">
+		<table id="tablaLoco" style="display:table; width: 100%;">
+			<tr>
+				<tc id="contactoInput" ">
+					<img src="img/serviciosMain.png">
+				</tc>
+				<tc id="contactoTextArea">
+					<h1 id="serviciosContentTittle" >SMARTPANICS</h1>
+					<h2 id="serviciosContentSubtittle">Seguridad en tus manos! Enviá alertas a la central de monitoreo, según la emergencia que tengas, y mucho más! Estar protegido todo el tiempo, es posible!</h2>
+					<h2>iconos</h2>
+					<div id="serviciosButContainer">
+						<a href="" target="_blank"><button  id="butInsta" class="buttonAntiman button--antiman button--round-l button--text-medium "><i></i><span>DESCARGAR</span></button></a>		
+					</div>	
+				</tc>
+			</tr>
+		</table>			
 		<div id="sliderMask" >
 			<img src="img/maskGradient.png"></img>
 		</div>			
@@ -262,140 +267,26 @@
 					<h2 class="textServicios" >Módulo central del sistema, que <strong>administra cuentas</strong> y todos sus datos. <strong>Genera y envía reportes</strong> en forma manual y/o también en forma automática</h2>
 				</div>						
 			</div>					
-		</div>						
-
-		<!--div class="recuadroServicios">
-			<div class="horizontal">
-				<div class="vertical">
-					<img class="serviciosImg" src="img/servicios_smartpanics.png" />
-				</div>											
-				<div class="contenedorTextServicios">	
-					<h2 class="titleServicios">SmartPanics</h2>
-					<h2 class="textServicios">
-						La App le entrega a sus clientes un <strong>servicio integral de seguridad</strong>, comprende también desde botones de emergencia hasta la posibilidad de <strong>gestionar y ver sus grupos, móviles y sus cámaras</strong>
-					</h2>
-				</div>
-			</div>					
-		</div>		
-		<div class="recuadroServicios">
-			<div class="horizontal">
-				<div class="vertical">
-					<img class="serviciosImg" src="img/servicios_videoVerificacion.png" />
-				</div>											
-				<div class="contenedorTextServicios">	
-					<h2 class="titleServicios">VideoVerificacion</h2>
-					<h2 class="textServicios" >
-						Diseñado para integrar video a los eventos de alarma recibidos en la estación central de manera simple e intuitiva, a requerimiento del operador o simplemente siguiendo rutinas de verificación o control periódico
-					</h2>
-				</div>
-			</div>					
-		</div>
-		<div class="recuadroServicios">
-			<div class="horizontal">
-				<div class="vertical">
-					<img class="serviciosImg" src="img/servicios_trackGuard.png" />
-				</div>											
-				<div class="contenedorTextServicios">	
-					<h2 class="titleServicios">TrackGuard</h2>
-					<h2 class="textServicios" >
-						Permite realizar el seguimiento y monitoreo móvil de los equipos montados en vehículos, cargas e incluso en personas (Msd) y relacionarlos a cuentas de abonado del sistema central
-					</h2>
-				</div>
-			</div>					
-		</div>
-		<div class="recuadroServicios">
-			<div class="horizontal">
-				<div class="vertical">
-					<img class="serviciosImg" src="img/servicios_vigiControl.png" />
-				</div>											
-				<div class="contenedorTextServicios">	
-					<h2 class="titleServicios">VigiControl</h2>
-					<h2 class="textServicios" >
-						Sistema para control de rondas con monitoreo en línea para vigiladores y personal de guardia. Sistema para control de rondas con monitoreo en línea para vigiladores y personal de guardia
-					</h2>
-				</div>
-			</div>					
-		</div>
-		<div class="recuadroServicios">
-			<div class="horizontal">
-				<div class="vertical">
-					<img class="serviciosImg" src="img/servicios_accesoWebCliente.png" />
-				</div>											
-				<div class="contenedorTextServicios">	
-					<h2 class="titleServicios">Acceso Web Cliente</h2>
-					<h2 class="textServicios" >
-						Accediendo vía Web podrán obtener información gráfica del estado de sus residencias o sucursales con indicación del estado de cada una (activado o desactivado) y los eventos de alarma recibidas para cada una de las cuentas
-					</h2>
-				</div>
-			</div>					
-		</div>
-		<div class="recuadroServicios">
-			<div class="horizontal">
-				<div class="vertical">
-					<img class="serviciosImg" src="img/servicios_accesoWebClienteMobile.png" />
-				</div>											
-				<div class="contenedorTextServicios">	
-					<h2 class="titleServicios">Acceso Web Cliente Mobile</h2>
-					<h2 class="textServicios" >
-						Este módulo ha sido especialmente diseñado para operar teniendo en cuenta la alta disponibilidad de teléfonos inteligentes, smartphone y tablets entre los usuarios corporativos y finales los cuales deseanacceder a información de calidad sobre su sistema de alarmas protegido	
-					</h2>	
-				</div>
-			</div>					
-		</div>
-		<div class="recuadroServicios">
-			<div class="horizontal">
-				<div class="vertical">
-					<img class="serviciosImg" src="img/servicios_autoMonitoreo.png" />
-				</div>											
-				<div class="contenedorTextServicios">	
-					<h2 class="titleServicios">Auto Monitoreo</h2>
-					<h2 class="textServicios" >
-						Entregamos a sus clientes la posibilidad de automonitorear sus alarmas, cámaras y grupo familiar mediante el envío de mensajes push
-					</h2>
-				</div>
-			</div>					
-		</div>
-		<div class="recuadroServicios">
-			<div class="horizontal">
-				<div class="vertical">
-					<img class="serviciosImg" src="img/servicios_logger.png" />
-				</div>											
-				<div class="contenedorTextServicios">	
-					<h2 class="titleServicios">Logger</h2>
-					<h2 class="textServicios" >
-						Todas las llamadas que egresan de la estación central serán digitalizadas y grabadas a disco. El operador puede relacionar la llamada al abonado. Pueden supervisarse las llamadas en curso, localmente o vía Internet
-					</h2>
-				</div>
-			</div>					
-		</div>
-		<div class="recuadroServicios">
-			<div class="horizontal">
-				<div class="vertical">
-					<img class="serviciosImg" src="img/servicios_servicioTecnico.png" />
-				</div>											
-				<div class="contenedorTextServicios">	
-					<h2 class="titleServicios">Servicio Técnico</h2>
-					<h2 class="textServicios" >
-						Gerenciar integralmente el servicio técnico al cliente, permitiendo ingresar pedidos de service desde múltiples sectores, programar las rutinas de servicio periódico preventivo, asignar técnicos, móviles y materiales.
-					</h2>
-				</div>
-			</div>					
-		</div-->																							
+		</div>								
 	</div>
-	<!-- /servicios end -->
+	<!-- /quienessomos end-->
 
-	<!-- Instaladores -->
-	<span class="anchor scrollLink" id="section3"></span>
-	<div id="instaladores" class="section">
-		<div id="sliderMask" >
-			<img src="img/maskQuienesSomos.png"></img>
-		</div>	
+	<!-- quienessomos -->
+	<span class="anchor scrollLink" id="section2"></span>
+	<div id="quienessomos" style="height: 832px;" class="section  ">
+		<div class="horizontal">
+			<div >
+				<h1 id="quienesSomosTitle" class="sectionTitle darkblue">QUIENES SOMOS</h1>		
+				<h2 class="textQuienesSomos">
+					Hace más de 10 años que trabajamos en Santa Fe en sistemas de seguridad para hogares, instituciones y negocios.	Proveemos de alarmas monitoreadas con video verificación, video vigilancia, sistemas remotos de seguridad, seguimiento de personas, coches y mascotas, entre otros. Si estás buscando seguridad y prevención podemos darte todas las opciones, contactanos!
+				</h2>				
+			</div>
+		</div>
 	</div>
-	<!-- Instaladores end -->
-
+	<!-- /quienessomos end-->	
 
 	<!-- Contact -->
-	<span class="anchor" id="section4"></span>
+	<span class="anchor" id="section3"></span>
 	<div id="contacto" class="section">
 		<div class="contactoContainer">
 			<table id="bigContactoTable">

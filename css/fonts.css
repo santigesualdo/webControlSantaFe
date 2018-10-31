@@ -1,26 +1,19 @@
 @font-face {
-  font-family: 'GothamBook';
-  src: url('../fonts/Gotham-Book.otf') format('opentype'),
-    url('../fonts/GothamBook.ttf')  format('truetype');
+  font-family: 'Montserrat';
+  src: url('../fonts/MontserratRegular.otf') format('opentype'),
+    url('../fonts/MotnserratRegular.ttf')  format('truetype');
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'GothamBold';
-  src: url('../fonts/Gotham-Bold.otf') format('opentype'),
-    url('../fonts/GothamBold.ttf')  format('truetype');
+  font-family: 'MontserratBold';
+  src: url('../fonts/MontserratBold.otf') format('opentype'),
+    url('../fonts/MontserratBold.ttf')  format('truetype');
 }
 
 @font-face {
-  font-family: 'GothamItalic';
-  src: url('../fonts/Gotham-BookItalic.otf') format('opentype'),
-    url('../fonts/GothamBookItalic.ttf')  format('truetype');
-  font-style: normal;    
-}
-
-@font-face {
-  font-family: 'GothamLight';
-  src: url('../fonts/Gotham-Light.otf') format('opentype'),
-    url('../fonts/GothamLight.ttf')  format('truetype');
+  font-family: 'MyriadPro';
+  src: url('../fonts/MyriadPro.otf') format('opentype'),
+    url('../fonts/MyriadPro.ttf')  format('truetype');
   font-style: normal;    
 }

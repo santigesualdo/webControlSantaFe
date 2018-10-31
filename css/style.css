@@ -46,7 +46,7 @@ Table OF Contents
 /* -- typography -- */
 
 body {
-    font-family: GothamBold;
+    font-family: Montserrat;
     font-size: 16px;
     line-height: 1.6;
     overflow-x: hidden;
@@ -68,7 +68,7 @@ body {
  }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: GothamItalic;
+    font-family: MontserratBold;
     font-weight: 700;
     margin-top: 0px;
     margin-bottom: 20px;
@@ -236,7 +236,7 @@ ul, ol {
 }
 
 .mainHeader nav ul li a {
-    font-family: "GothamBook";    
+    font-family: Montserrat;    
     color:white;
     position: relative;
     display: inline-block;
@@ -290,7 +290,7 @@ hr {
 }
 
 .overlay a {
-    font-family: GothamLight;
+    font-family: Montserrat;
     padding: 8px;
     text-decoration: none;
     font-size: 20px;
@@ -355,11 +355,13 @@ hr {
 
 
 h1#quienesSomosTitle {
-    color: white;
+    color: #1A1B37;
+    margin: auto;
+    margin-top: 3%;
 }
 
 h1#serviciosTitle{
-    color: #BD2E2B;
+    color: #1A1B37;
 }
 h1#instaladoresTitle{
     color: white;
@@ -368,20 +370,20 @@ h1#contactoTitle{
     color: #BD2E2B;
 }
 
-h2#instaladoresContentSubtittle {
-    font-family: GothamLight;
-    color: #FFFFFF;
+h2#serviciosContentSubtittle {
+    font-family: Montserrat;
+    color: #1A1B37;;
     font-weight: 100;
 }
-h1#instaladoresContentTittle {
-    font-family: GothamBold;
+h1#serviciosContentTittle {
+    font-family: MontserratBold;
     font-weight: bold;
     color: #FFFFFF;
 }
 
 .sectionTitle{
     text-align: right;
-    font-family: GothamBold;
+    font-family: MontserratBold;
     width: fit-content;    
 }
 
@@ -405,7 +407,7 @@ hr {
 }
 
 h2.textQuienesSomos{
-    font-family: GothamLight; 
+    font-family: Montserrat; 
     color: white; 
 }
 
@@ -494,11 +496,11 @@ div.vertical {
 }
 h2.titleServicios {
     color:#BD2E2B;
-    font-family: GothamBold;
+    font-family: MontserratBold;
     font-size: 26px;
 }
 .textServicios{
-    font-family : GothamLight;    
+    font-family : Montserrat;    
     font-weight: initial;    
     color : rgb(29, 29, 27);
 }
@@ -564,7 +566,7 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
 button.main-btn {
     float: right;
     margin-bottom: 4em;
-    font-family : GothamBold;
+    font-family : MontserratBold;
     color : #FFFFFF;  
 }
 
@@ -576,7 +578,7 @@ button.main-btn {
 .red-btn {
     background: red;
     color: white !important;
-    font-family: GothamBold;
+    font-family: MontserratBold;
 }
 
 
@@ -592,7 +594,7 @@ button.main-btn {
 }
 
 .textnav{
-    font-family:GothamBook; 
+    font-family:MontserratBold; 
     font-size:12px;
 }
 
@@ -1104,7 +1106,7 @@ div#instaladores{
     width:50%;
 }
 .socialText{
-    font-family: GothamBook; font-weight: inherit;  color : #FFFFFF; 
+    font-family: MontserratBold; font-weight: inherit;  color : #FFFFFF; 
 }
 
 .footerSociosContainer{
@@ -1139,7 +1141,7 @@ span {
     padding: 1em 2em;
     border: none;
     background: none;
-    font-family: GothamBold;
+    font-family: MontserratBold;
     vertical-align: middle;
     position: relative;
     z-index: 1;
@@ -1312,7 +1314,7 @@ button#butDemo:hover {
     cursor: pointer;  
 }
 
-#instaladoresButContainer{
+#serviciosButContainer{
   width:100%;
 }
 
@@ -1356,9 +1358,9 @@ tr.rowContacto{
         margin-left: 30%;        
     }
 
-    /*div#quienessomos {
-        background-image: url(../img/servicios.jpg); 
-    }*/
+    div#quienessomos {
+        background-image: url(../img/maskQuienesSomos.png); 
+    }
     /*div#instaladores{
         background-image: url(../img/i_1920.jpg); 
     }*/
@@ -1391,24 +1393,24 @@ tr.rowContacto{
         line-height: 3em;
         padding: 0 0.5em 0 0.5em;
     }
-    h1#quienesSomosTitle {
+    /*h1#quienesSomosTitle {
         border-bottom: 4px solid white;
         padding-top: 7%;
-    }
+    }*/
 
-    h1#serviciosTitle{
+    /*h1#serviciosTitle{
         border-bottom: 4px solid #BD2E2B;
         padding-top: 7%;
-    }
+    }*/
     h1#instaladoresTitle{
         border-bottom: 4px solid white;
         padding-top: 7%;
     }
-    h2#instaladoresContentSubtittle {
+    h2#serviciosContentSubtittle {
         font-size: 17px;
         line-height: 1.2em;
     }
-    h1#instaladoresContentTittle {
+    h1#serviciosContentTittle {
         font-size: 25px;
         line-height: 40.71px;
     }    
@@ -1418,20 +1420,16 @@ tr.rowContacto{
         padding-top: 7%;
     }
     h2.textQuienesSomos{
-        font-size: 17px;
-        line-height: 1.2em;
-        font-weight: initial;
-        margin-bottom: 0;    
+      font-size: 20px;
+      line-height: 1.5em;
+      font-weight: initial;
+      margin: auto;
+      margin-top: 12%;
+      width: 34%;
     }
-    .instaladoresContent{
-        margin-left: 15%;
-        margin-top:10%;
-        width: 28%;
-    }
-
+    
     button#butInsta{
-        margin-top: 7%;
-        margin-left: 0;
+        margin:0;
     }
 
     button#butDemo{
@@ -1449,10 +1447,10 @@ tr.rowContacto{
     }
     .sectionTitle{
         font-size:30px;
-        padding-bottom: 0.5em;
+        /*padding-bottom: 0.5em;
         padding-top: 4%;
         padding-left: 15%;
-        margin-bottom: 1.5em;
+        margin-bottom: 1.5em;*/
     }
     .recuadroServicios{
         margin-left: 15%;
@@ -1469,10 +1467,9 @@ tr.rowContacto{
         font-size: 17px; 
         line-height: 1.2em;
     }
-    .instaladoresContent {
-        margin-left: 15%;
-        margin-top: 10%;
-        width: 20%;
+    .serviciosContent {
+      margin-left: 15%; 
+      width: 100%;
     }    
     .containerNav{
         width: 100%;
@@ -1533,7 +1530,7 @@ tr.rowContacto{
     }
     h3.textContactoIcon{
         text-align: center; 
-        font-family: GothamBook;
+        font-family: MontserratBold;
         font-size: 1.2em;
     }
 
@@ -1598,11 +1595,11 @@ tr.rowContacto{
         border-bottom: 4px solid white;
         padding-top: 7%;
     }
-    h2#instaladoresContentSubtittle {
+    h2#serviciosContentSubtittle {
         font-size: 17px;
         line-height: 1.2em;
     }
-    h1#instaladoresContentTittle {
+    h1#serviciosContentTittle {
         font-size: 22px;
         line-height: 29px;
     }    
@@ -1617,7 +1614,7 @@ tr.rowContacto{
         font-weight: initial;
         margin-bottom: 0;    
     }
-    .instaladoresContent{
+    .serviciosContent{
         margin-left: 15%;
         margin-top:10%;
         width: 28%;
@@ -1664,7 +1661,7 @@ tr.rowContacto{
         font-size: 16px; 
         line-height: 1.2em;
     }
-    .instaladoresContent {
+    .serviciosContent {
         margin-left: 10%;
         margin-top: 10%;
         width: 28%;
@@ -1721,7 +1718,7 @@ tr.rowContacto{
 
     h3.textContactoIcon{
         text-align: center; 
-        font-family: GothamBook;
+        font-family: MontserratBold;
         font-size: 1.1em;
     }
 }
@@ -1776,11 +1773,11 @@ tr.rowContacto{
         border-bottom: 4px solid white;
         padding-top: 7%;
     }
-    h2#instaladoresContentSubtittle {
+    h2#serviciosContentSubtittle {
         font-size: 17px;
         line-height: 1.2em;
     }
-    h1#instaladoresContentTittle {
+    h1#serviciosContentTittle {
         font-size: 22px;
         line-height: 29px;
     }    
@@ -1795,7 +1792,7 @@ tr.rowContacto{
         font-weight: initial;
         margin-bottom: 0;    
     }
-    .instaladoresContent{
+    .serviciosContent{
         margin-left: 15%;
         margin-top:10%;
         width: 28%;
@@ -1843,7 +1840,7 @@ tr.rowContacto{
         font-size: 16px; 
         line-height: 1.2em;
     }
-    .instaladoresContent {
+    .serviciosContent {
         margin-left: 10%;
         margin-top: 15%;
         width: 60%;
@@ -1900,7 +1897,7 @@ tr.rowContacto{
 
     h3.textContactoIcon{
         text-align: center; 
-        font-family: GothamBook;
+        font-family: MontserratBold;
         font-size: 1em;
     }
 
@@ -1981,7 +1978,7 @@ tr.rowContacto{
 
     h2.titleServicios {
         color: #BD2E2B;
-        font-family: GothamBold;
+        font-family: MontserratBold;
         font-size: 26px;
         text-align: center;
         padding-top: 1em;
@@ -2033,11 +2030,11 @@ tr.rowContacto{
     h1#contactoTitle{
         border-bottom:0;
     }    
-    h2#instaladoresContentSubtittle {
+    h2#serviciosContentSubtittle {
         font-size: 17px;
         line-height: 1.2em;
     }
-    h1#instaladoresContentTittle {
+    h1#serviciosContentTittle {
         font-size: 22px;
         line-height: 29px;
     }    
@@ -2048,7 +2045,7 @@ tr.rowContacto{
         font-weight: initial;
         margin-bottom: 0;    
     }
-    .instaladoresContent{
+    .serviciosContent{
         margin-left: 10%;
         margin-right: 10%;
         position: absolute;
@@ -2089,7 +2086,7 @@ tr.rowContacto{
       font-size: 16px;
       line-height: 1.2em;
     }
-    .instaladoresContent {
+    .serviciosContent {
       margin-left: 10%;
       margin-right: 10%;
       margin-top: 30%;
@@ -2149,7 +2146,7 @@ tr.rowContacto{
 
     h3.textContactoIcon{
         text-align: center; 
-        font-family: GothamBook;
+        font-family: MontserratBold;
         font-size: 1em;
         margin-bottom:0;
     }
@@ -2228,7 +2225,7 @@ tr.rowContacto{
     }
     h2.titleServicios {
         color: #BD2E2B;
-        font-family: GothamBold;
+        font-family: MontserratBold;
         font-size: 17px;
         text-align: center;
         padding-top: 0.5em;
@@ -2280,12 +2277,12 @@ tr.rowContacto{
     h1#contactoTitle{
         border-bottom:0;
     }
-    h2#instaladoresContentSubtittle {
+    h2#serviciosContentSubtittle {
         font-size: 15px;
         line-height: 1.2em;
         padding: 0.5em;
     }
-    h1#instaladoresContentTittle {
+    h1#serviciosContentTittle {
         font-size: 17px;
         line-height: 29px;
     }    
@@ -2297,7 +2294,7 @@ tr.rowContacto{
         margin-bottom: 0;
         text-align:center;
     }
-    .instaladoresContent{
+    .serviciosContent{
         margin-left: 15%;
         margin-top:10%;
         width: 60%;
@@ -2334,7 +2331,7 @@ tr.rowContacto{
         padding-right: 12%;
         line-height: 1.2em;
     }
-    .instaladoresContent {
+    .serviciosContent {
       margin-left: 10%;
       margin-right: 10%;
       position: absolute;
@@ -2400,7 +2397,7 @@ tr.rowContacto{
     }    
     h3.textContactoIcon{
         text-align: center; 
-        font-family: GothamBook;
+        font-family: MontserratBold;
         font-size: 0.85em;
         margin: auto;
     }
