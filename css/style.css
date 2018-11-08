@@ -1358,12 +1358,6 @@ tr.rowContacto{
         margin-left: 30%;        
     }
 
-    div#quienessomos {
-        background-image: url(../img/maskQuienesSomos.png); 
-    }
-    /*div#instaladores{
-        background-image: url(../img/i_1920.jpg); 
-    }*/
     .decoImg{
         width:20%;
     }
@@ -1549,12 +1543,12 @@ tr.rowContacto{
     .sectionBackImageResponsive{
         height: 768px;        
     }
-    div#quienessomos{
+    /*div#quienessomos{
         background-image: url(../img/qs_1920.jpg); 
     }
     div#instaladores{
         background-image: url(../img/i_1920.jpg); 
-    }    
+    }    */
 
     th#columnNav {
         vertical-align: middle;
