@@ -67,10 +67,12 @@ function setSkrollr(){
 	$(window).on('scroll', function() {
 	    var wScroll = $(this).scrollTop();
 
-		if (wScroll > 700) {
+		if (wScroll > 650) {
 			$('#back-to-top').fadeIn();
+			$('.mainHeader').css('background','#191A37');
 		}else{
 			$('#back-to-top').fadeOut();
+			$('.mainHeader').css('background','transparent');
 		}  
 	});
 

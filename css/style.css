@@ -185,10 +185,10 @@ ul, ol {
     left: 0;
     top: 0;
     width: 100%;
-    background: rgba(255, 255, 255, 1);
-    box-shadow: 0 0 0.5em 0 rgba(0, 0, 0, 0.25);
+    background: transparent;
     -webkit-transition: -webkit-transform .8s ease-in-out;
     transition: transform .8s ease-in-out;
+    transition: background .5s ease-in;
 }
 .fixed-header{
     position:fixed;
