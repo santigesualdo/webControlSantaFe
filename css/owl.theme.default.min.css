@@ -288,7 +288,8 @@ button#butDemo{
     div#gradientMask{
 		background-image: url(../img/maskGradient1366.png); 
         width:100%;
-        height: 620px;		
+        height: 620px;	
+        transform: translateY(-10%);	
     }
 
     div#footerMask{

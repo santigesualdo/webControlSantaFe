@@ -378,7 +378,7 @@ h2#serviciosContentSubtittle {
 h1#serviciosContentTittle {
     font-family: MontserratBold;
     font-weight: bold;
-    color: #FFFFFF;
+    
 }
 
 .sectionTitle{
@@ -1550,6 +1550,9 @@ tr.rowContacto{
         background-image: url(../img/i_1920.jpg); 
     }    */
 
+    div#servicios {
+      margin-top:2em;
+    }
     th#columnNav {
         vertical-align: middle;
         text-align: right;
@@ -1581,14 +1584,14 @@ tr.rowContacto{
         padding-top: 7%;
     }
 
-    h1#serviciosTitle{
+    /*h1#serviciosTitle{
         border-bottom: 4px solid #BD2E2B;
         padding-top: 7%;
     }
     h1#instaladoresTitle{
         border-bottom: 4px solid white;
         padding-top: 7%;
-    }
+    }*/
     h2#serviciosContentSubtittle {
         font-size: 17px;
         line-height: 1.2em;
@@ -1625,10 +1628,6 @@ tr.rowContacto{
     }
     .sectionTitle{
         font-size:28px;
-        padding-bottom: 0.5em;
-        padding-top: 4%;
-        padding-left: 10%;
-        margin-bottom: 1.5em;
     }
     .espacioGuion {
       display:none;

@@ -67,7 +67,7 @@ function setSkrollr(){
 	$(window).on('scroll', function() {
 	    var wScroll = $(this).scrollTop();
 
-		if (wScroll > 650) {
+		if (wScroll > 300) {
 			$('#back-to-top').fadeIn();
 			$('.mainHeader').css('background','#191A37');
 		}else{
