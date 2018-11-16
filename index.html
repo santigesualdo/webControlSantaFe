@@ -163,10 +163,7 @@
 		  </div>
 		  <div id="slide4" class="img-wrap">
   	  		<img></img>
-		  </div>
-		  <div id="slide5" class="img-wrap">
-  	  		<img></img>
-		  </div>			  			  
+		  </div>	  			  
 		</div>
 	</div>
 	<!-- Main Slider end-->
@@ -177,11 +174,11 @@
 		<div style="" class="horizontal">
 			<h1 id="serviciosTitle" class="sectionTitle darkblue">SERVICIOS</h1>
 		</div>
-		<table style="display:table; width: 100%; margin-top:2em;">
+		<table style="display:table; width: 100%; margin-top:2em; ">
 			<tr>
 				<th style="width: 50%;">
 					<div style="text-align: right;">
-						<img style="max-width: 450px;" src="img/serviciosMain.png" />
+						<img id="serviciosImg"  src="img/serviciosMain.png" />
 					</div>
 				</th>
 				<th style="width: 50%; padding-right:20%; padding-left:3%;">
@@ -195,67 +192,81 @@
 			</tr>
 		</table>
 		
-		<div >
-			<div id="gradientMask" class="img-wrap" style="position:relative;">
-				<img></img>
+		<!-- Seccion Curva servicios -->
+		<div class="seccionCurva">
+			<div class="containerCurvo">
+				<h3 style="color:white; font-family: MontserratBold;">¿COMO ADQUIRIR SMARTPANICS?</h3>
+				<h6 style="color:white;">Si sos <b>cliente</b> de Control SF, seguí estos pasos.</h6>	
+				<div style="display:flex;">
+					<div style="width:100%; margin-left:20%; margin-right:20%; display:flex;">
+						<div style="width:25%; margin:0; color:white;"> 
+							<img class="iconServ" style="padding:1em; padding-top:0em; padding-bottom:1em;" src="img/serivicioIcon1.png">
+							<h6 style="color:white;"><b>Llamanos</b> para <br>activar la App!</h6>
+						</div>
+						<div style="width:25%; margin:0;">
+							<img class="iconServ" style="padding:1em; padding-top:0em; padding-bottom:1em;" src="img/serivicioIcon2.png">
+							<h6 style="color:white;"><strong>Descarga <br>SmartPanics NG</strong><br> en playstore</h6>
+						</div>
+						<div style="width:25%; margin:0;">
+							<img class="iconServ" style="padding:1em; padding-top:0em; padding-bottom:1em;" src="img/serivicioIcon3.png">
+							<h6 style="color:white;">Te llegará a tu<br> mail el <strong>código QR </strong><br>de activación</h6>
+						</div>
+						<div style="width:25%; margin:0;">
+							<img class="iconServ" style="padding:1em; padding-top:0em; padding-bottom:1em;" src="img/serivicioIcon4.png">
+							<h6 style="color:white;">Listo!<strong> Seguridad y<br> Confianza </strong>al alcance<br> de tu mano!</h6>
+						</div>
+					</div>
+				</div>
 			</div>
-			<img src="img/serviciosIcons2.png">
-		</div>			
-		<div class="recuadroServicios">
-			<div class="horizontal">
-				<div class="vertical">
-					<img class="serviciosImg" src="img/serv1.jpg" />
-				</div>	
-				<div class="contenedorTextServicios">	
-					<h2 class="titleServicios">Monitoreo</h2>
-					<h2 class="textServicios" >Módulo central del sistema, que <strong>administra cuentas</strong> y todos sus datos. <strong>Genera y envía reportes</strong> en forma manual y/o también en forma automática</h2>
-				</div>													
-			</div>					
 		</div>
-		<div class="recuadroServicios">
-			<div class="horizontal">
-				<div class="vertical">
-					<img class="serviciosImg" src="img/serv2.jpg" />
-				</div>						
-				<div class="contenedorTextServicios">	
-					<h2 class="titleServicios">Monitoreo</h2>
-					<h2 class="textServicios" >Módulo central del sistema, que <strong>administra cuentas</strong> y todos sus datos. <strong>Genera y envía reportes</strong> en forma manual y/o también en forma automática</h2>
-				</div>						
-			</div>					
+		<div id="gradientMask" class="img-wrap" style="position:relative;">
+			<img></img>
 		</div>
-		<div class="recuadroServicios">
-			<div class="horizontal">
-				<div class="vertical">
-					<img class="serviciosImg" src="img/serv4.jpg" />
-				</div>						
-				<div class="contenedorTextServicios">	
-					<h2 class="titleServicios">Monitoreo</h2>
-					<h2 class="textServicios" >Módulo central del sistema, que <strong>administra cuentas</strong> y todos sus datos. <strong>Genera y envía reportes</strong> en forma manual y/o también en forma automática</h2>
-				</div>													
-			</div>					
+		<!-- FIN Seccion Curva Servicios -->
+
+		<!-- Items Servicios -->
+		<div class="recuadroServicios" >
+			<div>	
+				<img id="item1" class="serviciosItemImg" src="img/serv1.jpg" />
+				<h2 class="titleServicios">TU HOGAR, <br>SIEMPRE SEGURO.</h2>
+				<h6 class="textServicios" >Instalamos <b>sistemas de alarmas monitoreadas</b> en lugares estratégicos pensados según tu hogar o local | <b>Hacé de tu lugar, un espacio seguro!</b></h6>
+			</div>
 		</div>
-		<div class="recuadroServicios">
-			<div class="horizontal">
-				<div class="vertical">
-					<img class="serviciosImg" src="img/serv5.jpg" />
-				</div>				
-				<div class="contenedorTextServicios">	
-					<h2 class="titleServicios">Monitoreo</h2>
-					<h2 class="textServicios" >Módulo central del sistema, que <strong>administra cuentas</strong> y todos sus datos. <strong>Genera y envía reportes</strong> en forma manual y/o también en forma automática</h2>
-				</div>														
-			</div>					
+		<div class="recuadroServicios" >
+			<div>	
+				<img id="item2" class="serviciosItemImg" src="img/serv2.jpg" />
+				<h2 class="titleServicios">TRACKGUARD EN<br>TUS VEHÍCULOS.</h2>
+				<h2 class="textServicios" >Con el módulo <b>TrackGuard</b> podés saber dónde se encuentran <b>tus vehículos o mascotas</b>,en cualquier momento del día, estés dónde estés.</h2>
+			</div>
 		</div>
-		<div class="recuadroServicios">
-			<div class="horizontal">
-				<div class="vertical">
-					<img class="serviciosImg" src="img/serv6.jpg" />
-				</div>	
-				<div class="contenedorTextServicios">	
-					<h2 class="titleServicios">Monitoreo</h2>
-					<h2 class="textServicios" >Módulo central del sistema, que <strong>administra cuentas</strong> y todos sus datos. <strong>Genera y envía reportes</strong> en forma manual y/o también en forma automática</h2>
-				</div>						
-			</div>					
-		</div>								
+		<div class="recuadroServicios" >
+			<div>	
+				<img id="item3" class="serviciosItemImg" src="img/serv3.jpg" />
+				<h2 class="titleServicios">CONTROL <br>DE RONDAS</h2>
+				<h2 class="textServicios" >Sistema para controlar rondas de monitoreo en línea, diseñado para <b>vigiladores y personal de guardia.</b></h2>
+			</div>
+		</div>
+		<div class="recuadroServicios" >
+			<div>	
+				<img id="item4" class="serviciosItemImg" src="img/serv4.jpg" />
+				<h2 class="titleServicios">MONITOREO</h2>
+				<h2 class="textServicios" ><b>Te brindamos protección las 24hs, los 365 días del año</b>. Nuestra central de monitoreo cuenta con tecnología de última generación para ofrecer el servicio de monitoreo más completo. Nuestros especialistas te avisan cada vez que suena la alarma.</h2>
+			</div>
+		</div>
+		<div class="recuadroServicios" >
+			<div>	
+				<img id="item5" class="serviciosItemImg" src="img/serv5.jpg" />
+				<h2 class="titleServicios">VIDEO <br>VERIFICACIÓN </h2>
+				<h2 class="textServicios">Para obtener una protección integral, ofrecemos video-verifticación; así en el caso de dispararse la alarma, nuestros especialistas visualizan las cámaras para dar aviso a quien corresponda.</h2>
+			</div>
+		</div>
+		<div class="recuadroServicios" >
+			<div>	
+				<img id="item6" class="serviciosItemImg" src="img/serv6.jpg" />
+				<h2 class="titleServicios">COMPLEMENTOS <br>DE SEGURIDAD. </h2>
+				<h2 class="textServicios" >Ofrecemos sistemas de productos complementarios de última generación para lograr mayor seguridad en su hogar y/o local.<br><br><b>Comunicador celular | Barrera Exterior | Pir Exterior | Sirena Exterior | Control remoto | Detector de rotura de vidrio | Detector de impacto para vidrios | Teclados adicionales | Sensores de humo | Cámaras de seguridad, etc.</b></h2>
+			</div>
+		</div>
 	</div>
 	<!-- /quienessomos end-->
 

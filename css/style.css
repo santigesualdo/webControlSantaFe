@@ -68,8 +68,8 @@ body {
  }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: MontserratBold;
-    font-weight: 700;
+    font-family: Montserrat;
+    font-weight: 100;
     margin-top: 0px;
     margin-bottom: 20px;
     color: #10161A;
@@ -93,6 +93,10 @@ h4 {
 
 h5 {
     font-size: 16px;
+}
+
+h6 {
+    font-size: 12px;
 }
 
 a {
@@ -198,6 +202,18 @@ ul, ol {
     height: inherit;
 }
 
+.seccionCurva{
+  display: block; 
+  position: absolute; 
+  z-index: 1; 
+  width:100%;
+}
+
+.containerCurvo{
+  margin: 0; 
+  text-align: center; 
+  
+}
 
 #logo{
     height: inherit; 
@@ -1357,6 +1373,14 @@ tr.rowContacto{
         margin: 1em;
         margin-left: 30%;        
     }
+    
+    .containerCurvo{
+      margin-top:20%;
+    }
+
+    img#serviciosImg{
+      max-width: 550px;  
+    }
 
     .decoImg{
         width:20%;
@@ -1369,8 +1393,7 @@ tr.rowContacto{
         padding: 3em; 
         padding-left:6.5em; 
         padding-top:3em; 
-        padding-bottom:1em;  
-        transform: translateX(-4em)    
+        padding-bottom:1em;        
     }
 
     th#columnLogo {
@@ -1387,15 +1410,14 @@ tr.rowContacto{
         line-height: 3em;
         padding: 0 0.5em 0 0.5em;
     }
-    /*h1#quienesSomosTitle {
-        border-bottom: 4px solid white;
-        padding-top: 7%;
-    }*/
 
-    /*h1#serviciosTitle{
-        border-bottom: 4px solid #BD2E2B;
-        padding-top: 7%;
-    }*/
+    img#item1,img#item3,img#item5 {
+        float: right;
+    }
+    img#item2,img#item4,img#item6 {
+        float: left;
+    }
+
     h1#instaladoresTitle{
         border-bottom: 4px solid white;
         padding-top: 7%;
@@ -1439,6 +1461,14 @@ tr.rowContacto{
     .espacioGuion {
       display:none;
     }
+
+    h2.titleServicios {
+        color: #1A1B37;
+        font-family: MontserratBold;
+        font-size: 22px;
+        padding-top: 1em;
+    }   
+
     .sectionTitle{
         font-size:30px;
         /*padding-bottom: 0.5em;
@@ -1447,8 +1477,8 @@ tr.rowContacto{
         margin-bottom: 1.5em;*/
     }
     .recuadroServicios{
-        margin-left: 15%;
-        margin-right: 10.5%;
+        margin-left: 20%;
+        margin-right: 20%;
         margin-bottom: 2em;
         display:flex;
     }    
@@ -1550,6 +1580,18 @@ tr.rowContacto{
         background-image: url(../img/i_1920.jpg); 
     }    */
 
+    img#serviciosImg{
+      max-width: 450px;  
+    }
+
+    img.serviciosItemImg{
+      max-width: 500px;
+    }
+    
+    .containerCurvo{
+      margin-top:14%;
+    }
+
     div#servicios {
       margin-top:2em;
     }
@@ -1584,14 +1626,20 @@ tr.rowContacto{
         padding-top: 7%;
     }
 
-    /*h1#serviciosTitle{
-        border-bottom: 4px solid #BD2E2B;
-        padding-top: 7%;
+    h2.titleServicios {
+        color: #1A1B37;
+        font-family: MontserratBold;
+        font-size: 22px;
+        padding-top: 1em;
+    }  
+    
+    img#item1,img#item3,img#item5 {
+        float: right;
     }
-    h1#instaladoresTitle{
-        border-bottom: 4px solid white;
-        padding-top: 7%;
-    }*/
+    img#item2,img#item4,img#item6 {
+        float: left;
+    }
+
     h2#serviciosContentSubtittle {
         font-size: 17px;
         line-height: 1.2em;
@@ -1637,11 +1685,11 @@ tr.rowContacto{
         padding-left:6.5em; 
         padding-top:3em; 
         padding-bottom:1em;  
-        transform: translateX(-4em)    
+        
     }
     .recuadroServicios{
         margin-left: 10%;
-        margin-right: 6%;
+        margin-right: 10%;
         margin-bottom: 2em;
         display:flex;
     }    
@@ -1720,6 +1768,10 @@ tr.rowContacto{
         height: 600px;
     }
 
+    img#serviciosImg{
+      max-width: 350px;  
+    }
+
    div#quienessomos{
         background-image: url(../img/qs_1024.jpg); 
     }
@@ -1791,6 +1843,14 @@ tr.rowContacto{
         width: 28%;
     }
 
+
+    img#item1,img#item3,img#item5 {
+        float: right;
+    }
+    img#item2,img#item4,img#item6 {
+        float: left;
+    }
+
     button#butInsta{
         margin-top: 7%;
         margin-left: 0;
@@ -1816,7 +1876,6 @@ tr.rowContacto{
         padding-left:6.5em; 
         padding-top:3em; 
         padding-bottom:1em;  
-        transform: translateX(-4em)    
     }
     .recuadroServicios{
         margin-left: 10%;
@@ -1905,6 +1964,10 @@ tr.rowContacto{
     .sectionBackImageResponsive{
         height: 800px;
     }
+    img#serviciosImg{
+      max-width: 300px;  
+    }
+
 
     #navMenu{
         display:none;
@@ -1942,14 +2005,7 @@ tr.rowContacto{
         right: 35px;
         padding: 0;
     }
-
-    div#quienessomos{
-        background-image: url(../img/qs_720.jpg); 
-    }     
-     div#instaladores{
-        background-image: url(../img/i_720.jpg); 
-    }
-      
+     
   	div.contactoImgContainer{
         display: flex; 
         justify-content: center;
@@ -1969,13 +2025,6 @@ tr.rowContacto{
         position: relative;
     }
 
-    h2.titleServicios {
-        color: #BD2E2B;
-        font-family: MontserratBold;
-        font-size: 26px;
-        text-align: center;
-        padding-top: 1em;
-    }
     .sectionTitle{
       width: 100%;
       text-align: center;
@@ -2045,6 +2094,14 @@ tr.rowContacto{
         bottom: 5em;
         width: 80%;
         text-align: center;
+    }
+
+
+    img#item1,img#item3,img#item5 {
+        float: right;
+    }
+    img#item2,img#item4,img#item6 {
+        float: left;
     }
 
     button#butInsta{
@@ -2170,6 +2227,11 @@ tr.rowContacto{
     .sectionBackImageResponsive{
         height: 700px;
     }
+
+    img#serviciosImg{
+      max-width: 250px;  
+    }
+
     #navMenu{
         display:none;
     }
@@ -2198,12 +2260,7 @@ tr.rowContacto{
         right: 35px;
         padding: 0;
     }
-    div#quienessomos{
-        background-image: url(../img/qs_720.jpg); 
-    }     
-    div#instaladores{
-        background-image: url(../img/i_720.jpg); 
-    }
+
     div.horizontal {
         display: block;
     }

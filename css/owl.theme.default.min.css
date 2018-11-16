@@ -223,9 +223,6 @@ button#butDemo{
 	div#slide4 {
 		background-image: url(../img/slides/slide4_1920.jpg);
 	}
-	div#slide5 {
-		background-image: url(../img/slides/slide5_1920.jpg);
-	}	
 
 	div#navLogo {
 	    margin-left: 15%;
@@ -310,9 +307,6 @@ button#butDemo{
 	div#slide4 {
 		background-image: url(../img/slides/slide4_1366.jpg);
 	}
-	div#slide5 {
-		background-image: url(../img/slides/slide5_1366.jpg);
-	}
 
 	button#butDemo{
 		float:left;	
@@ -396,9 +390,6 @@ button#butDemo{
 	div#slide4 {
 		background-image: url(../img/slides/slide4_1024.jpg);
 	}
-	div#slide5 {
-		background-image: url(../img/slides/slide5_1024.jpg);
-	}	
 
 	div#navLogo {
 	    margin-left: 15%;
@@ -517,9 +508,6 @@ button#butDemo{
 	}
 	div#slide4 {
 		background-image: url(../img/slides/slide4_720.jpg);
-	}
-	div#slide5 {
-		background-image: url(../img/slides/slide5_720.jpg);
 	}
 
 	div#navLogo {
@@ -650,9 +638,6 @@ button#butDemo{
 	}
 	div#slide4 {
 		background-image: url(../img/slides/slide4_720.jpg);
-	}
-	div#slide5{
-		background-image: url(../img/slides/slide5_720.jpg);	
 	}
 
 	div#navLogo {
