@@ -193,7 +193,7 @@ button#butDemo{
 		height: 152px;
 	}
 
-    div#quienessomos {
+    div#quienessomosMask {
         background-image: url(../img/maskQuienesSomos1920.png); 
         width:100%;
         height: 883px;
@@ -276,10 +276,10 @@ button#butDemo{
 		height: 108px;
 	}
 
-    div#quienessomos {
+    div#quienessomosMask {
         background-image: url(../img/maskQuienesSomos1366.png); 
         width:100%;
-        height: 471px;
+        height: 567px;
     }
 
     div#gradientMask{

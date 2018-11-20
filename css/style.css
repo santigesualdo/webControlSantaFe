@@ -211,8 +211,7 @@ ul, ol {
 
 .containerCurvo{
   margin: 0; 
-  text-align: center; 
-  
+  text-align: center;   
 }
 
 #logo{
@@ -1374,7 +1373,11 @@ tr.rowContacto{
         margin-left: 30%;        
     }
     
-    .containerCurvo{
+    div#serviciosCurvo{
+      margin-top:20%;
+    }
+
+    div#quienesSomosCurvo{
       margin-top:20%;
     }
 
@@ -1587,9 +1590,12 @@ tr.rowContacto{
     img.serviciosItemImg{
       max-width: 500px;
     }
-    
-    .containerCurvo{
+
+    div#serviciosCurvo{
       margin-top:14%;
+    }
+    div#quienesSomosCurvo{
+      margin-top:15%;
     }
 
     div#servicios {
@@ -1622,8 +1628,7 @@ tr.rowContacto{
     }
 
     h1#quienesSomosTitle {
-        border-bottom: 4px solid white;
-        padding-top: 7%;
+
     }
 
     h2.titleServicios {
