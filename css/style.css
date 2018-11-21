@@ -369,33 +369,6 @@ hr {
 }
 
 
-h1#quienesSomosTitle {
-    color: #1A1B37;
-    margin: auto;
-    margin-top: 3%;
-}
-
-h1#serviciosTitle{
-    color: #1A1B37;
-}
-h1#instaladoresTitle{
-    color: white;
-}
-h1#contactoTitle{
-    color: #BD2E2B;
-}
-
-h2#serviciosContentSubtittle {
-    font-family: Montserrat;
-    color: #1A1B37;;
-    font-weight: 100;
-}
-h1#serviciosContentTittle {
-    font-family: MontserratBold;
-    font-weight: bold;
-    
-}
-
 .sectionTitle{
     text-align: right;
     font-family: MontserratBold;
@@ -1642,10 +1615,6 @@ tr.rowContacto{
         font-weight: normal;
     }
 
-    h1#quienesSomosTitle {
-
-    }
-
     h2.titleServicios {
         color: #1A1B37;
         font-family: MontserratBold;
@@ -1821,38 +1790,6 @@ tr.rowContacto{
         font-weight: normal;
     }
 
-    h1#quienesSomosTitle {
-        border-bottom: 4px solid white;
-        padding-top: 7%;
-    }
-
-    h1#serviciosTitle{
-        border-bottom: 4px solid #BD2E2B;
-        padding-top: 7%;
-    }
-    h1#instaladoresTitle{
-        border-bottom: 4px solid white;
-        padding-top: 7%;
-    }
-    h2#serviciosContentSubtittle {
-        font-size: 17px;
-        line-height: 1.2em;
-    }
-    h1#serviciosContentTittle {
-        font-size: 22px;
-        line-height: 29px;
-    }    
-    h1#contactoTitle{
-        color: #BD2E2B;
-        border-bottom: 4px solid #BD2E2B;
-        padding-top: 7%;
-    }
-    h2.textQuienesSomos{
-        font-size: 16px;
-        line-height: 1.2em;
-        font-weight: initial;
-        margin-bottom: 0;    
-    }
     .serviciosContent{
         margin-left: 15%;
         margin-top:10%;
@@ -2072,28 +2009,6 @@ tr.rowContacto{
          border-top: 2px solid white;
          border-bottom: 2px solid white;
     }
-    h1#quienesSomosTitle {
-        border-bottom: 0;
-        padding-top: 14%;
-    }
-
-    h1#serviciosTitle{
-        border-bottom:0;
-    }
-    h1#instaladoresTitle{
-        border-bottom:0;
-    }
-    h1#contactoTitle{
-        border-bottom:0;
-    }    
-    h2#serviciosContentSubtittle {
-        font-size: 17px;
-        line-height: 1.2em;
-    }
-    h1#serviciosContentTittle {
-        font-size: 22px;
-        line-height: 29px;
-    }    
 
     h2.textQuienesSomos{
         font-size: 16px;
@@ -2326,28 +2241,6 @@ tr.rowContacto{
          border-top: 2px solid white;
          border-bottom: 2px solid white;
     }
-    h1#quienesSomosTitle {
-        border-bottom: 0;
-    }
-
-    h1#serviciosTitle{
-        border-bottom:0;
-    }
-    h1#instaladoresTitle{
-        border-bottom:0;
-    }
-    h1#contactoTitle{
-        border-bottom:0;
-    }
-    h2#serviciosContentSubtittle {
-        font-size: 15px;
-        line-height: 1.2em;
-        padding: 0.5em;
-    }
-    h1#serviciosContentTittle {
-        font-size: 17px;
-        line-height: 29px;
-    }    
 
     h2.textQuienesSomos{
         font-size: 11px;
