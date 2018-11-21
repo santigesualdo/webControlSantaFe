@@ -1,6 +1,6 @@
 $( '.owl-carousel' ).owlCarousel({
     items:1,
-    dots:true,
+    dots:false,
     autoplay:true,
     autoplayTimeout:10000,
     loop:true,
