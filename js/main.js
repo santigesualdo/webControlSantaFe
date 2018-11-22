@@ -20,6 +20,38 @@ function setSkrollr(){
     });
 }
 
+function adaptarMask(event){
+  var w = window.innerWidth;
+
+  // Slider Mask
+  var sliderMaskRatio= 12.6481;
+  var hSliderMask = w/sliderMaskRatio;
+  // GradientMask
+  var gradientMaskRatio= 2.1545;
+  var hGradientMask= w/gradientMaskRatio;
+  // QuienesSomosMask
+  var quienesSomosMaskRatio= 2.1751;
+  var hQuienesSomosMask= w/quienesSomosMaskRatio;
+  // FooterMask
+  var footerMaskRatio= 3.7322;
+  var hFooterMask=w/footerMaskRatio;
+  
+  $('div#sliderMask').css('width', w);
+  $('div#sliderMask').css('height', hSliderMask);
+
+  $('div#gradientMask').css('width', w);
+  $('div#gradientMask').css('height', hGradientMask);
+
+  $('div#quienesSomosMask').css('width', w);
+  $('div#quienesSomosMask').css('height', hQuienesSomosMask);
+
+  $('div#footerMask').css('width', w);
+  $('div#footerMask').css('height', hFooterMask);
+
+}
+
+window.addEventListener('resize', adaptarMask);
+
 (function($) {
 	"use strict"
 
@@ -31,6 +63,7 @@ function setSkrollr(){
 		$('body').css("overflow-y","auto");
 		$("#sliderMask").delay(600).fadeIn();
 		$('#sliderMask').css("z-index","97");
+		adaptarMask();
 	});
 
 	///////////////////////////

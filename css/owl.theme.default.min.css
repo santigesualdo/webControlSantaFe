@@ -179,6 +179,22 @@ button#butDemo{
     float: unset;
 }
 
+div#sliderMask{
+	background-image: url(../img/maskSlider1920.png);
+}
+
+div#quienessomosMask {
+    background-image: url(../img/maskQuienesSomos1920.png); 
+}
+
+div#gradientMask{
+	background-image: url(../img/maskGradient1920.png); 
+}
+
+div#footerMask{
+	background-image: url(../img/maskFooter1920.png); 
+}
+
 
 @media only screen and (min-width: 1400px) {
 
@@ -186,7 +202,7 @@ button#butDemo{
 	  visibility: hidden;
 	  height: 758px;
 	}
-
+/*
 	div#sliderMask{
 		background-image: url(../img/maskSlider1920.png);
 		width:100%;
@@ -209,7 +225,7 @@ button#butDemo{
 		background-image: url(../img/maskFooter1920.png); 
         width:100%;
         height: 515px;			
-    }
+    }*/
 
 	div#slide1 {
 		background-image: url(../img/slides/slide1_1920.jpg);
@@ -270,7 +286,7 @@ button#butDemo{
     	padding-left: 0;
 	}
 
-	div#sliderMask{
+	/*div#sliderMask{
 		background-image: url(../img/maskSlider1366.png);
 		width:100%;
 		height: 108px;
@@ -293,7 +309,7 @@ button#butDemo{
 		background-image: url(../img/maskFooter1366.png); 
         width:100%;
         height: 400px;			
-    }	
+    }	*/
 
 	div#slide1 {
 		background-image: url(../img/slides/slide1_1366.jpg);
@@ -373,10 +389,10 @@ button#butDemo{
 	  height: 800px;
 	}
 
-	div#sliderMask{
+	/*div#sliderMask{
 		background-image: url(../img/maskSlider1024.png);
 		height: 81px;
-	}
+	}*/
 
 	div#slide1 {
 		background-image: url(../img/slides/slide1_1024.jpg);
@@ -492,10 +508,10 @@ button#butDemo{
 	  height: 800px;
 	}
 
-	div#sliderMask{
+	/*div#sliderMask{
 		background-image: url(../img/maskSlider720.png);
 		height: 57px;
-	}
+	}*/
 
 	div#slide1 {
 		background-image: url(../img/slides/slide1_720.jpg);
@@ -622,10 +638,10 @@ button#butDemo{
 		height: 150vw;
 	}
 
-	div#sliderMask{
+	/*div#sliderMask{
 		background-image: url(../img/maskSlider720.png);
 		height: 57px;
-	}
+	}*/
 
 	div#slide1 {
 		background-image: url(../img/slides/slide1_720.jpg);
