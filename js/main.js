@@ -42,8 +42,8 @@ function adaptarMask(event){
   $('div#gradientMask').css('width', w);
   $('div#gradientMask').css('height', hGradientMask);
 
-  $('div#quienesSomosMask').css('width', w);
-  $('div#quienesSomosMask').css('height', hQuienesSomosMask);
+  $('div#quienessomosMask').css('width', w);
+  $('div#quienessomosMask').css('height', hQuienesSomosMask);
 
   $('div#footerMask').css('width', w);
   $('div#footerMask').css('height', hFooterMask);
