@@ -67,6 +67,10 @@ body {
    z-index: 99; 
  }
 
+ span.barrita {
+    color: white;
+}
+
 h1, h2, h3, h4, h5, h6 {
     font-family: Montserrat;
     font-weight: 100;
@@ -850,6 +854,21 @@ button.main-btn {
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#DE2E17',endColorstr='#A71B18' , GradientType=1);
 }
 
+.iconredes {
+    margin-top: 1em;
+    margin-right: 1.5em;
+}
+
+div#footerImgContainerRedes{
+  display:flex;
+}
+
+div#footerImgContainer{
+  position: absolute; 
+  bottom: 5em;
+  left: 10%;
+}
+
 /*------------------------------------*\
 	Owl theme
 \*------------------------------------*/
@@ -1580,7 +1599,7 @@ tr.rowContacto{
     }
 
     div#serviciosCurvo{
-      margin-top:14%;
+      margin-top:17%;
     }
     div#quienesSomosCurvo{
       margin-top:15%;
