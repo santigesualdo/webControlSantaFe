@@ -863,6 +863,15 @@ div#footerImgContainerRedes{
   display:flex;
 }
 
+
+img.iconredes{
+   filter:  none;
+}
+
+img.iconredes:hover{
+   filter: drop-shadow(0px 5px 10px red);
+}
+
 div#footerImgContainer{
   position: absolute; 
   bottom: 5em;
