@@ -1403,7 +1403,7 @@ tr.rowContacto{
     }
 
     div#quienesSomosCurvo{
-      margin-top:20%;
+      margin-top:15%;
     }
 
     img#serviciosImg{
@@ -1441,9 +1441,11 @@ tr.rowContacto{
 
     img#item1,img#item3,img#item5 {
         float: right;
+        margin-left: 3em;
     }
     img#item2,img#item4,img#item6 {
         float: left;
+        margin-right: 3em;
     }
 
     h1#instaladoresTitle{
@@ -1468,8 +1470,8 @@ tr.rowContacto{
       line-height: 1.5em;
       font-weight: initial;
       margin: auto;
-      margin-top: 12%;
-      width: 34%;
+      margin-top: 6%;
+      width: 60%;
     }
     
     button#butInsta{
