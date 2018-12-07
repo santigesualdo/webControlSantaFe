@@ -21,7 +21,8 @@ function setSkrollr(){
 }
 
 function adaptarMask(event){
-  var w = window.innerWidth;
+
+  var w = document.documentElement.clientWidth;
 
   // Slider Mask
   var sliderMaskRatio= 12.6481;
@@ -36,8 +37,14 @@ function adaptarMask(event){
   var footerMaskRatio= 3.7322;
   var hFooterMask=w/footerMaskRatio;
   
+  $('body').css('width',w);
+
+  $('img.img-wrap').css('width',w);
+  $('img.img-wrap').css('height', 'auto');
+
   $('div#sliderMask').css('width', w);
   $('div#sliderMask').css('height', hSliderMask);
+
 
   $('div#gradientMask').css('width', w);
   $('div#gradientMask').css('height', hGradientMask);

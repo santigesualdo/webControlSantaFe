@@ -36,7 +36,7 @@
 	</script> -->
 </head>
 
-<body>
+<body style="height:100%;">
 	<div id="hideAll">
 		<div id="loader" class="loader"></div>
 		<script>
@@ -107,7 +107,8 @@
 						<script>
 							function openNav() {
 								document.getElementById("myNav").style.display = "none";
-								document.getElementById("myNav").style.height = "100%";
+								document.getElementById("myNav").style.width = document.documentElement.clientWidth;
+								document.getElementById("myNav").style.height = '100vh';
 							    $("#menuNavLittle").fadeOut(500);
 							    $("#myNav").fadeIn(500);
 							}

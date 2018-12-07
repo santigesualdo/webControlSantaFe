@@ -803,6 +803,7 @@ button.main-btn {
 
 #footer {
     position: relative;
+    overflow-y: hidden;
 }
 
 .footer-logo {
@@ -1787,13 +1788,7 @@ tr.rowContacto{
       max-width: 350px;  
     }
 
-   div#quienessomos{
-        background-image: url(../img/qs_1024.jpg); 
-    }
-    div#instaladores{
-        background-image: url(../img/i_1024.jpg); 
-    }    
-
+   
     th#columnNav {
         vertical-align: middle;
         text-align: right;
