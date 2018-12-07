@@ -386,7 +386,7 @@ div#footerMask{
 
 	.img-wrap img {
 	  visibility: hidden;
-	  height: 800px;
+	  /*height: 800px;*/
 	}
 
 	/*div#sliderMask{
