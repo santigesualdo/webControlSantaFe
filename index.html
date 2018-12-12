@@ -54,23 +54,23 @@
 	            spinner: null
 	          },
 	          rebound: {
-	            tension: 20,
-	            friction: 10
+	            tension: 14,
+	            friction: 9
 	          },
 	          spinner: {
 	            canvasW: gridW,
 	            canvasH: gridH,
-	            radius: 100,
-	            sides: 6,
-	            depth: 15,
+	            radius: 120,
+	            sides: 10,
+	            depth: 8,
 	            colors: {
-	              background: '#FFFFFF',
-	              stroke: null,
+	              background: '#ffffff',
+	              stroke: '#1A1B37',
 	              base: null,
-	              child: '#FF0000'
+	              child: '#1A1B37'
 	            },
-	            alwaysForward: false, // When false the spring will reverse normally.
-	            restAt: 0.6, // A number from 0.1 to 0.9 || null for full rotation
+	            alwaysForward: true, // When false the spring will reverse normally.
+	            restAt: null, // A number from 0.1 to 0.9 || null for full rotation
 	            renderBase: false // Optionally render basePolygon
 	          }
 	        }
@@ -175,45 +175,48 @@
 		<div style="" class="horizontal">
 			<h1 class="sectionTitle darkblue">SERVICIOS</h1>
 		</div>
-		<table style="display:table; width: 100%; margin-top:2em; ">
-			<tr>
-				<th style="width: 50%;">
-					<div style="text-align: right;">
-						<img id="serviciosImg"  src="img/serviciosMain.png" />
-					</div>
-				</th>
-				<th style="width: 50%; padding-right:20%; padding-left:3%;">
-					<h1 id="serviciosContentTittle" >SMARTPANICS</h1>
-					<h2 id="serviciosContentSubtittle">Seguridad en tus manos! Enviá alertas a la central de monitoreo, según la emergencia que tengas, y mucho más! Estar protegido todo el tiempo, es posible!</h2>
-					<img style="margin-top:1em; margin-bottom:1em;max-width:250px;" src="img/serviciosIcons.png"/>
-					<div id="serviciosButContainer">
-						<a href="" target="_blank"><button  id="butInsta" class="buttonAntiman button--antiman button--round-l button--text-medium "><i></i><span>DESCARGAR</span></button></a>		
-					</div>	
-				</th>
-			</tr>
-		</table>
+		<div id="tableContainer">
+			<table id="tableServicios">
+				<tr>
+					<th id="tableServiciosImg" style="width: 50%;">
+						<div style="text-align: right;">
+							<img id="serviciosImg"  src="img/serviciosMain.png" />
+						</div>
+					</th>
+					<th id="tableServiciosContent">
+						<h1 id="serviciosContentTittle" >SMARTPANICS</h1>
+						<h2 id="serviciosContentSubtittle">Seguridad en tus manos! Enviá alertas a la central de monitoreo, según la emergencia que tengas, y mucho más! Estar protegido todo el tiempo, es posible!</h2>
+						<img id="serviciosIconsImg"  src="img/serviciosIcons.png"/>
+						<div id="serviciosButContainer">
+							<a href="" target="_blank"><button  id="butInsta" class="buttonAntiman button--antiman button--round-l button--text-medium "><i></i><span>DESCARGAR</span></button></a>		
+						</div>	
+					</th>
+				</tr>
+			</table>
+		</div>
+
 		
 		<!-- Seccion Curva servicios -->
 		<div class="seccionCurva">
 			<div id="serviciosCurvo" class="containerCurvo">
-				<h3 style="color:white; font-family: MontserratBold;">¿COMO ADQUIRIR SMARTPANICS?</h3>
-				<h6 style="color:white;">Si sos <b>cliente</b> de Control SF, seguí estos pasos.</h6>	
+				<h3 id="serviciosCurvoTitle" >¿COMO ADQUIRIR SMARTPANICS?</h3>
+				<h6 id="serviciosCurvoSubtitle" >Si sos <b>cliente</b> de Control SF, seguí estos pasos.</h6>	
 				<div style="display:flex;">
-					<div style="width:100%; margin-left:20%; margin-right:20%; display:flex;">
+					<div id="serviciosCurvoContainer">
 						<div style="width:25%; margin:0; color:white;"> 
-							<img class="iconServ" style="padding:1em; padding-top:0em; padding-bottom:1em;" src="img/serivicioIcon1.png">
+							<img class="iconServ"  src="img/serivicioIcon1.png">
 							<h6 style="color:white;"><b>Llamanos</b> para <br>activar la App!</h6>
 						</div>
 						<div style="width:25%; margin:0;">
-							<img class="iconServ" style="padding:1em; padding-top:0em; padding-bottom:1em;" src="img/serivicioIcon2.png">
+							<img class="iconServ"  src="img/serivicioIcon2.png">
 							<h6 style="color:white;"><strong>Descarga <br>SmartPanics NG</strong><br> en playstore</h6>
 						</div>
 						<div style="width:25%; margin:0;">
-							<img class="iconServ" style="padding:1em; padding-top:0em; padding-bottom:1em;" src="img/serivicioIcon3.png">
+							<img class="iconServ"  src="img/serivicioIcon3.png">
 							<h6 style="color:white;">Te llegará a tu<br> mail el <strong>código QR </strong><br>de activación</h6>
 						</div>
 						<div style="width:25%; margin:0;">
-							<img class="iconServ" style="padding:1em; padding-top:0em; padding-bottom:1em;" src="img/serivicioIcon4.png">
+							<img class="iconServ"  src="img/serivicioIcon4.png">
 							<h6 style="color:white;">Listo!<strong> Seguridad y<br> Confianza </strong>al alcance<br> de tu mano!</h6>
 						</div>
 					</div>

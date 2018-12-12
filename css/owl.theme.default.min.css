@@ -202,30 +202,6 @@ div#footerMask{
 	  visibility: hidden;
 	  height: 758px;
 	}
-/*
-	div#sliderMask{
-		background-image: url(../img/maskSlider1920.png);
-		width:100%;
-		height: 152px;
-	}
-
-    div#quienessomosMask {
-        background-image: url(../img/maskQuienesSomos1920.png); 
-        width:100%;
-        height: 883px;
-    }
-
-    div#gradientMask{
-		background-image: url(../img/maskGradient1920.png); 
-        width:100%;
-        height: 892px;		
-    }
-
-    div#footerMask{
-		background-image: url(../img/maskFooter1920.png); 
-        width:100%;
-        height: 515px;			
-    }*/
 
 	div#slide1 {
 		background-image: url(../img/slides/slide1_1920.jpg);
@@ -386,7 +362,7 @@ div#footerMask{
 
 	.img-wrap img {
 	  visibility: hidden;
-	  /*height: 800px;*/
+	  height: 800px;
 	}
 
 	/*div#sliderMask{
@@ -500,6 +476,7 @@ div#footerMask{
 	button.red-btn {
 	    margin-top: 23%;
 	}		
+
 }
 @media (max-width: 768px) and (min-width: 480px) {
 
