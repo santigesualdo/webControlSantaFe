@@ -521,7 +521,7 @@ input[type="text"], input[type="email"], input[type="password"], input[type="num
 
 textarea {
     padding: 10px 10px;
-    min-height: 220px;
+    min-height: 340px;
     resize: vertical;
 }
 
@@ -954,7 +954,7 @@ div#footerImgContainer{
   	height: 50px;
   	line-height: 50px;
   	text-align: center;
-  	background: red;
+  	background: rgb(25, 26, 55);
   	border-radius:3px;
   	color: #FFF;
   	z-index: 6;
@@ -1438,17 +1438,17 @@ tr.rowContacto{
     h3#serviciosCurvoTitle{
       color:white; 
       font-family: MontserratBold; 
+      font-size:2em;
     }
 
     h6#serviciosCurvoSubtitle{
       color:white;
       margin-bottom: 4em;
     }
-    div#serviciosCurvoContainer{
-      width:100%; 
-      margin-left:20%; 
-      margin-right:20%; 
-      display:flex;
+
+    h6.iconServSub{
+      color:white;
+      font-size:1em;
     }
 
     div#serviciosCurvoContainer{
@@ -1457,6 +1457,8 @@ tr.rowContacto{
       margin-right:20%; 
       display:flex;
     }
+
+
 
     .decoImg{
         width:20%;
@@ -1685,10 +1687,15 @@ tr.rowContacto{
       margin-top:15%;
     }
 
-      img.iconServ {
+    img.iconServ {
         padding: 1.5em;
         padding-top: 0em;
         padding-bottom: 0.5em;
+    }
+
+    h6.iconServSub{
+      color:white;
+      font-size:0.75em;
     }
 
     div#servicios {
@@ -1725,13 +1732,16 @@ tr.rowContacto{
         font-family: MontserratBold;
         font-size: 22px;
         padding-top: 1em;
+        margin-top:2em;
     }  
     
     img#item1,img#item3,img#item5 {
         float: right;
+        margin-left:2em;
     }
     img#item2,img#item4,img#item6 {
         float: left;
+        margin-right: 2em;
     }
 
     h2#serviciosContentSubtittle {
@@ -2074,6 +2084,11 @@ tr.rowContacto{
       margin-right:20%; 
       display:flex;
     }
+
+    h6.iconServSub{
+      color:white;
+      font-size:0.50em;
+    }
 }
 @media (max-width:768px) and (min-width:480px) {
 
@@ -2359,6 +2374,11 @@ tr.rowContacto{
       margin-right:20%; 
       display:flex;
     }    
+
+    h6.iconServSub{
+      color:white;
+      font-size:0.40em;
+    }
 }
 @media (max-width:479px) and (min-width:320px) {
 
@@ -2643,5 +2663,10 @@ tr.rowContacto{
       margin-left:20%; 
       margin-right:20%; 
       display:flex;
+    }
+
+    h6.iconServSub{
+      color:white;
+      font-size:0.25em;
     }
 }  
