@@ -191,6 +191,18 @@ div#gradientMask{
 	background-image: url(../img/maskGradient1920.png); 
 }
 
+div#deco1{
+	background-image: url(../img/deco1-04.png); 
+}
+
+div#deco2{
+	background-image: url(../img/deco2-04.png); 
+}
+
+div#deco3{
+	background-image: url(../img/deco3-04-04.png); 
+}
+
 div#footerMask{
 	background-image: url(../img/maskFooter1920.png); 
 }

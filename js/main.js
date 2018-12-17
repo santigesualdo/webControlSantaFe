@@ -37,6 +37,16 @@ function adaptarMask(event){
   var footerMaskRatio= 3.7322;
   var hFooterMask=w/footerMaskRatio;
   
+  // Deco 1 
+  var deco1Ratio=3.5036;
+  var hDeco1= w/deco1Ratio;
+  // Deco 2 
+  var deco2Ratio=1.8658;
+  var hDeco2= w/deco2Ratio;
+  // Deco 3 
+  var deco3Ratio=1.1367;
+  var hDeco3= w/deco3Ratio;
+  
   $('body').css('width',w);
 
   $('img.img-wrap').css('width',w);
@@ -45,15 +55,20 @@ function adaptarMask(event){
   $('div#sliderMask').css('width', w);
   $('div#sliderMask').css('height', hSliderMask);
 
-
   $('div#gradientMask').css('width', w);
   $('div#gradientMask').css('height', hGradientMask);
 
   $('div#quienessomosMask').css('width', w);
   $('div#quienessomosMask').css('height', hQuienesSomosMask);
 
-  $('div#footerMask').css('width', w);
-  $('div#footerMask').css('height', hFooterMask);
+  $('div#deco1').css('width', w);
+  $('div#deco1').css('height', hDeco1);
+  
+  $('div#deco2').css('width', w);
+  $('div#deco2').css('height', hDeco2);
+
+  $('div#deco3').css('width', w);
+  $('div#deco3').css('height', hDeco3);
 
 }
 
