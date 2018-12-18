@@ -61,6 +61,9 @@ function adaptarMask(event){
   $('div#quienessomosMask').css('width', w);
   $('div#quienessomosMask').css('height', hQuienesSomosMask);
 
+  $('div#footerMask').css('width', w);
+  $('div#footerMask').css('height', hFooterMask);
+
   $('div#deco1').css('width', w);
   $('div#deco1').css('height', hDeco1);
   
