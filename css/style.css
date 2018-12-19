@@ -134,6 +134,9 @@ a:hover, a:focus {
 .white-text {
     color: #FFF;
 }
+.semiTransparente{
+  opacity: 0.5;
+}
 
 ::-moz-selection {
     background-color: #6195FF;
@@ -377,9 +380,7 @@ hr {
 
 
 .sectionTitle{
-    text-align: right;
     font-family: MontserratBold;
-    width: fit-content;    
 }
 
 hr.line{
@@ -490,9 +491,8 @@ div.vertical {
     background: rgba(29, 29, 27, 0.05);
 }
 h2.titleServicios {
-    color:#BD2E2B;
     font-family: MontserratBold;
-    font-size: 26px;
+    color: #1A1B37;
 }
 .textServicios{
     font-family : Montserrat;    
@@ -1428,6 +1428,7 @@ tr#trServicios{
       font-size: 30px;
       letter-spacing: 4.45px;
       transform: translateY(100px);
+      width:100%;
     }
     
     div#serviciosCurvo{
@@ -1574,8 +1575,6 @@ tr#trServicios{
     }
 
     h2.titleServicios {
-        color: #1A1B37;
-        font-family: MontserratBold;
         font-size: 22px;
         padding-top: 4em;
     }   
@@ -1695,7 +1694,7 @@ tr#trServicios{
       text-align: center;
       font-size: 30px;
       letter-spacing: 4.45px;
-      transform: translateY(100px);
+      transform: translateY(70px);
     }
 
     table#tableServicios{
@@ -1771,8 +1770,6 @@ tr#trServicios{
     }
 
     h2.titleServicios {
-        color: #1A1B37;
-        font-family: MontserratBold;
         font-size: 20px;
         padding-top: 1em;
         margin-top:2em;
@@ -1802,11 +1799,11 @@ tr#trServicios{
     }
     h2.textQuienesSomos{
         font-size: 16px;
-        line-height: 1.2em;
+        line-height: 1.7em;
         font-weight: initial;
         margin: auto;
         padding-top: 1%;
-        width: 64%;
+        width: 65%;
     }
     .serviciosContent{
         margin-left: 15%;
@@ -2153,7 +2150,7 @@ tr#trServicios{
       max-width: 200px;  
     }
     img.serviciosItemImg{
-      max-width: 250px;
+      width:100%;
     }    
 
     th#tableServiciosImg{
@@ -2164,8 +2161,6 @@ tr#trServicios{
       font-family: MontserratBold;
       text-align: center;
       font-size: 30px;
-      letter-spacing: 4.45px;
-      transform: translateY(100px);
     }
 
     .containerCurvo{
@@ -2591,8 +2586,6 @@ tr#trServicios{
         max-width: 60px;
     }
     h2.titleServicios {
-        color: #BD2E2B;
-        font-family: MontserratBold;
         font-size: 17px;
         text-align: center;
         padding-top: 0.5em;
@@ -2602,7 +2595,6 @@ tr#trServicios{
       width: 100%;
       text-align: center;
       font-size: 28px;
-      /* padding-bottom: 3%; */
       padding-top: 20%;
     }
 
