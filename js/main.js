@@ -27,12 +27,27 @@ function adaptarMask(event){
   // Slider Mask
   var sliderMaskRatio= 12.6481;
   var hSliderMask = w/sliderMaskRatio;
-  // GradientMask
-  var gradientMaskRatio= 2.1545;
-  var hGradientMask= w/gradientMaskRatio;
-  // QuienesSomosMask
-  var quienesSomosMaskRatio= 2.1751;
-  var hQuienesSomosMask= w/quienesSomosMaskRatio;
+
+  // GradientMask 1920
+  var gradientMaskRatio1920= 2.94930;
+  var hGradientMask1920= w/gradientMaskRatio1920;
+  // GradientMask 1024
+  var gradientMaskRatio1024= 1.492711;
+  var hGradientMask1024= w/gradientMaskRatio1024;
+  // GradientMask 720
+  var gradientMaskRatio720= 1.362948960302457;
+  var hGradientMask1720= w/gradientMaskRatio720;
+
+  // QuienesSomosMask 1920
+  var quienesSomosMaskRatio1920= 2.76657060518732;
+  var hQuienesSomosMask1920= w/quienesSomosMaskRatio1920;
+    // QuienesSomosMask 1024
+  var quienesSomosMaskRatio1024= 1.473381294964029;
+  var hQuienesSomosMask1024= w/quienesSomosMaskRatio1024;
+    // QuienesSomosMask 720
+  var quienesSomosMaskRatio720= 1.110939907550077;
+  var hQuienesSomosMask720= w/quienesSomosMaskRatio720;
+
   // FooterMask
   var footerMaskRatio= 3.7322;
   var hFooterMask=w/footerMaskRatio;
@@ -56,10 +71,23 @@ function adaptarMask(event){
   $('div#sliderMask').css('height', hSliderMask);
 
   $('div#gradientMask').css('width', w);
-  $('div#gradientMask').css('height', hGradientMask);
-
   $('div#quienessomosMask').css('width', w);
-  $('div#quienessomosMask').css('height', hQuienesSomosMask);
+  if (w>1024){
+    $('div#gradientMask').css('height', hGradientMask1920);  
+    $('div#quienessomosMask').css('height', hQuienesSomosMask1920);
+  }else if (w>720 && w<=1024) {
+    $('div#gradientMask').css('height', hGradientMask1024);  
+    $('div#quienessomosMask').css('height', hQuienesSomosMask1024);
+  }else if (w<=720){
+    $('div#gradientMask').css('height', hGradientMask720);  
+    $('div#quienessomosMask').css('height', hQuienesSomosMask720);
+  }
+
+  
+  
+
+  
+  
 
   $('div#footerMask').css('width', w);
   $('div#footerMask').css('height', hFooterMask);
