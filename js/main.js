@@ -29,23 +29,23 @@ function adaptarMask(event){
   var hSliderMask = w/sliderMaskRatio;
 
   // GradientMask 1920
-  var gradientMaskRatio1920= 2.94930;
+  var gradientMaskRatio1920= 2.6337;
   var hGradientMask1920= w/gradientMaskRatio1920;
   // GradientMask 1024
-  var gradientMaskRatio1024= 1.492711;
+  var gradientMaskRatio1024= 1.7808;
   var hGradientMask1024= w/gradientMaskRatio1024;
   // GradientMask 720
-  var gradientMaskRatio720= 1.362948960302457;
-  var hGradientMask1720= w/gradientMaskRatio720;
+  var gradientMaskRatio720= 0.821917;
+  var hGradientMask720= w/gradientMaskRatio720;
 
   // QuienesSomosMask 1920
-  var quienesSomosMaskRatio1920= 2.76657060518732;
+  var quienesSomosMaskRatio1920= 2.633744;
   var hQuienesSomosMask1920= w/quienesSomosMaskRatio1920;
     // QuienesSomosMask 1024
-  var quienesSomosMaskRatio1024= 1.473381294964029;
+  var quienesSomosMaskRatio1024= 1.747410;
   var hQuienesSomosMask1024= w/quienesSomosMaskRatio1024;
     // QuienesSomosMask 720
-  var quienesSomosMaskRatio720= 1.110939907550077;
+  var quienesSomosMaskRatio720= 0.7817;
   var hQuienesSomosMask720= w/quienesSomosMaskRatio720;
 
   // FooterMask

@@ -524,7 +524,7 @@ input[type="text"], input[type="email"], input[type="password"], input[type="num
 
 textarea {
     padding: 10px 10px;
-    min-height: 340px;
+    min-height: 220px;
     resize: vertical;
 }
 
@@ -1412,6 +1412,10 @@ div#contacto {
     margin-top: 5%;
 }
 
+.textContainerRecuadro{
+  width: 100%;
+}
+
 /* media query principales */
 @media only screen and (min-width: 1400px) {
 
@@ -1527,16 +1531,16 @@ div#contacto {
         line-height: 3em;
         padding: 0 0.5em 0 0.5em;
     }
-
+    img.serviciosItemImg{
+      width: 45%;
+    }
     img#item1,img#item3,img#item5 {
         float: right;
-        margin-left: 5em;
-        width: 450px;
+        margin-left: 5%;
     }
     img#item2,img#item4,img#item6 {
         float: left;
-        margin-right: 5em;
-        width: 450px;
+        margin-right: 5%;
     }
 
     h1#instaladoresTitle{
@@ -1558,11 +1562,11 @@ div#contacto {
     }
     h2.textQuienesSomos{
       font-size: 24px;
-      line-height: 1.75em;
+      line-height: 1.3em;
       font-weight: initial;
       margin: auto;
       padding-top: 1%;
-      width: 64%;
+      width: 45%;
     }
     
     button#butInsta{
@@ -1598,7 +1602,7 @@ div#contacto {
     .recuadroServicios{
         margin-left: 20%;
         margin-right: 20%;
-        margin-bottom: 2em;
+        margin-bottom: 3em;
         display:flex;
     }    
     .recuadroTexto{    
@@ -1726,7 +1730,7 @@ div#contacto {
     }
 
     img.serviciosItemImg{
-      width: 500px;
+      width: 45%;
     }
 
     img#serviciosIconsImg{
@@ -1736,7 +1740,7 @@ div#contacto {
     }
 
     div#serviciosCurvo{
-      margin-top:9%;
+      margin-top: 12%;
     }
     div#quienesSomosCurvo{
       margin-top:12%;
@@ -1790,11 +1794,11 @@ div#contacto {
     
     img#item1,img#item3,img#item5 {
         float: right;
-        margin-left:3em;
+        margin-left: 5%;
     }
     img#item2,img#item4,img#item6 {
         float: left;
-        margin-right: 3em;
+        margin-right: 5%;
     }
 
     h2#serviciosContentSubtittle {
@@ -1811,12 +1815,12 @@ div#contacto {
         padding-top: 7%;
     }
     h2.textQuienesSomos{
-        font-size: 16px;
-        line-height: 1.7em;
-        font-weight: initial;
-        margin: auto;
-        padding-top: 1%;
-        width: 65%;
+      font-size: 16px;
+      line-height: 1.3em;
+      font-weight: initial;
+      margin: auto;
+      padding-top: 1%;
+      width: 45%;
     }
     .serviciosContent{
         margin-left: 15%;
@@ -1849,7 +1853,7 @@ div#contacto {
     .recuadroServicios{
         margin-left: 10%;
         margin-right: 10%;
-        margin-bottom: 2em;
+        margin-bottom: 3em;
         display:flex;
     }    
     .recuadroTexto{    
@@ -1939,6 +1943,9 @@ div#contacto {
     }
 }
 @media (max-width: 1023px) and (min-width:769px) {
+    img.serviciosItemImg{
+      width: 45%;
+    }
     img#serviciosImg{
       max-width: 350px;  
     }
@@ -2036,12 +2043,11 @@ div#contacto {
 
     img#item1,img#item3,img#item5 {
         float: right;
-        margin-left:2em;
+        margin-left: 5%;
     }
-
     img#item2,img#item4,img#item6 {
         float: left;
-        margin-right:2em;
+        margin-right: 5%;
     }
 
     button#butInsta{
@@ -2072,7 +2078,7 @@ div#contacto {
     .recuadroServicios{
         margin-left: 10%;
         margin-right: 6%;
-        margin-bottom: 2em;
+        margin-bottom: 3em;
         display:flex;
     }    
     .recuadroTexto{    
