@@ -1419,6 +1419,19 @@ div#contacto {
 /* media query principales */
 @media only screen and (min-width: 1400px) {
 
+    .iconredes {
+        margin-top: 1em;
+        margin-right: 1.5em;
+    }
+
+    img#seguinos {
+        width: 100%;
+    }
+
+    img.iconredes{
+       max-width: 70px;
+    }
+
     img#logo{
         height: 60px;
         margin: 1em;
@@ -1694,6 +1707,25 @@ div#contacto {
 }
 @media (max-width: 1399px) and (min-width: 1024px) {
 
+    .iconredes {
+        margin-top: 1em;
+        margin-right: 1.5em;
+    }
+
+    img#seguinos {
+        width: 100%;
+    }
+
+    img.iconredes{
+       max-width: 62px;
+    }
+
+    div#footerImgContainer{
+      position: absolute; 
+      bottom: 2em;
+      left: 10%;
+    }
+
     img#serviciosImg{
       max-width: 450px;  
     }
@@ -1943,6 +1975,20 @@ div#contacto {
     }
 }
 @media (max-width: 1023px) and (min-width:769px) {
+    
+    .iconredes {
+        margin-top: 1em;
+        margin-right: 1.5em;
+    }
+
+    img#seguinos {
+        width: 100%;
+    }
+
+    img.iconredes{
+       max-width: 50px;
+    }
+
     img.serviciosItemImg{
       width: 45%;
     }
@@ -2180,6 +2226,25 @@ div#contacto {
 }
 @media (max-width:768px) and (min-width:480px) {
 
+    .iconredes {
+        margin-top: 0.5em;
+        margin-right: 1.2em;
+    }
+
+    img#seguinos {
+        width: 80%;
+    }
+
+    img.iconredes{
+       max-width: 40px;
+    }
+
+    div#footerImgContainer{
+      position: absolute; 
+      bottom: 0.1em;
+      left: 5%;
+    }
+
     img#serviciosImg{
       max-width: 200px;  
     }
@@ -2205,8 +2270,14 @@ div#contacto {
       margin: 0;
       margin-left: 10%;
       margin-right: 10%;
+      margin-top:70%;
       text-align: center;
     }
+    div#quienesSomosCurvo{
+      margin-top: 47%;
+      width: 80%;      
+    }
+
     h2.titleServicios{
       text-align:center;
     }
@@ -2300,7 +2371,7 @@ div#contacto {
       text-align: center;
       font-size: 28px;
       /*   padding-bottom: 3%; */
-      padding-top: 20%;
+      padding-top: 6%;
     }
 
     .espacioGuion {
@@ -2331,11 +2402,11 @@ div#contacto {
 
     h2.textQuienesSomos{
         font-size: 16px;
-        line-height: 1.2em;
+        line-height: 1.7em;
         font-weight: initial;
         margin: auto;
         padding-top: 1%;
-        width: 64%;
+        width: 60%;
     }
 
 
@@ -2493,8 +2564,7 @@ div#contacto {
     }
     div#serviciosCurvoContainer{
       width:100%; 
-      margin-left:20%; 
-      margin-right:20%; 
+      margin-top:3em;
       display:flex;
     }    
 
@@ -2506,28 +2576,46 @@ div#contacto {
     h3#serviciosCurvoTitle{
       color: white;
       font-family: MontserratBold;
-      margin-top: 75px;
-      font-size: 0.8em;
+      margin-top: 50%;
+      font-size: 18px;
+      line-height: 29px;
       margin-bottom: 5px;
     }
 
     h6#serviciosCurvoSubtitle{
       color:white;
-      margin-bottom: 0.2em;
-      font-size:0.5em;
+      font-size: 1em;
+      margin-top: 1em;
+      margin-bottom: 1em;
     }
-    div#serviciosCurvoContainer{
-      width:100%; 
-      display:flex;
-    }
+
+
 
     h6.iconServSub{
       color:white;
-      font-size:0.25em;
+      font-size:0.7em;
     }
 }
 @media (max-width:479px) and (min-width:320px) {
 
+    .iconredes {
+        margin-top: 0.5em;
+        margin-right: 1em;
+    }
+
+    img#seguinos {
+        width: 100%;
+    }
+
+    img.iconredes{
+       max-width: 40px;
+    }
+
+    div#footerImgContainer{
+      position: absolute; 
+      bottom: 1em;
+      left: 10%;
+    }
 
     img#serviciosImg{
       max-width: 250px;  
@@ -2836,8 +2924,9 @@ div#contacto {
     }
     div#serviciosCurvoContainer{
       width:100%; 
+      margin-top:3em;
       display:flex;
-    }
+    }    
 
     h6.iconServSub{
       color:white;
@@ -2848,11 +2937,12 @@ div#contacto {
 
 /* media query de ajuste */
 @media (max-width: 1700px) and (min-width: 1400px){
+  
     div#serviciosCurvo {
-      margin-top: 10%;
+      margin-top: 12%;
     }
     div#quienesSomosCurvo {
-      margin-top: 10%;
+      margin-top: 12%;
     }    
     h2.textQuienesSomos {
       width: 81%;
@@ -2861,10 +2951,10 @@ div#contacto {
 
 @media (max-width: 1200px) and (min-width: 1024px){
     div#serviciosCurvo {
-      
+      margin-top:20%;
     }
     div#quienesSomosCurvo {
-      
+      margin-top:24%;
     }    
     h2.textQuienesSomos {
       width:88%;

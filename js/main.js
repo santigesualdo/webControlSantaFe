@@ -75,19 +75,13 @@ function adaptarMask(event){
   if (w>1024){
     $('div#gradientMask').css('height', hGradientMask1920);  
     $('div#quienessomosMask').css('height', hQuienesSomosMask1920);
-  }else if (w>720 && w<=1024) {
+  }else if (w>768 && w<=1024) {
     $('div#gradientMask').css('height', hGradientMask1024);  
     $('div#quienessomosMask').css('height', hQuienesSomosMask1024);
-  }else if (w<=720){
-    $('div#gradientMask').css('height', hGradientMask720);  
-    $('div#quienessomosMask').css('height', hQuienesSomosMask720);
+  }else if (w<=768){
+    $('div#gradientMask').css('height', '-webkit-fill-available');  
+    $('div#quienessomosMask').css('height', '-webkit-fill-available');
   }
-
-  
-  
-
-  
-  
 
   $('div#footerMask').css('width', w);
   $('div#footerMask').css('height', hFooterMask);
