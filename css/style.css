@@ -1365,8 +1365,8 @@ button#butDemo:hover {
 }
 
 tc#contactoInput {
-    width: 49%;
-    margin-right: 1em;   
+    width: 50%;
+    margin-right: 2em;
 }
 
 tr.rowIcons{
@@ -1381,6 +1381,7 @@ tr.rowContacto{
 #bigContactoTable{
   display:table;
   width: 100%;
+  margin-bottom:2em;
 }
 
 #smallContacto{
@@ -1613,6 +1614,7 @@ div#contacto {
 
     h2.titleServicios {
         font-size: 22px;
+        letter-spacing: 2px;
     }   
 
     .sectionTitle{
@@ -1664,11 +1666,8 @@ div#contacto {
       margin-right: 15%;
     }
     img#imgdatafiscal {
-      width: 46px;
-    }
-    img.imgSocios {
-        width: 140px;
-        margin-left: 1em;
+      width: 60px;
+      margin-bottom:3em;
     }
 
     .containerNav {
@@ -1684,7 +1683,7 @@ div#contacto {
 
     .columnIcon{
         width:33.3%; 
-        height: 100px;
+        height: 60px;
     }
 
 
@@ -1716,6 +1715,10 @@ div#contacto {
     }    
 }
 @media (max-width: 1399px) and (min-width: 1024px) {
+
+    div#deco2{
+      transform: translateY(36%);
+    }
 
     .textContainerRecuadro{
       margin: 0 auto;
@@ -1936,11 +1939,8 @@ div#contacto {
       margin-right: 15%;
     }
     img#imgdatafiscal {
-      width: 46px;
-    }
-    img.imgSocios {
-        width: 140px;
-        margin-left: 1.7em;
+      width: 60px;
+      margin-bottom:3em;
     }
 
     .socialText{
@@ -1955,7 +1955,7 @@ div#contacto {
     }
     .columnIcon{
         width:33.3%; 
-        height: 100px;
+        height: 60px;
     }
 
 
@@ -2187,7 +2187,8 @@ div#contacto {
       margin-right: 15%;
     }
     img#imgdatafiscal {
-      width: 46px;
+      width: 60px;
+      margin-bottom:3em;
     }
     img.imgSocios {
         width: 140px;
@@ -2207,7 +2208,7 @@ div#contacto {
 
     .columnIcon{
         width:33.3%; 
-        height: 100px;
+        height: 60px;
     }
 
     tr.rowContacto{

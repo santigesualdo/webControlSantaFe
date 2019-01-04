@@ -13,8 +13,7 @@ function setSkrollr(){
         var myDistance = $(window).scrollTop();
         if (myDistance > objDistance){
             $header.addClass('navbar-fixed-top');
-        }
-        if (objDistance > myDistance){
+        }else if (objDistance > myDistance){
             $header.removeClass('navbar-fixed-top');
         }
     });
