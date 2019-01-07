@@ -2316,7 +2316,6 @@ div#contacto {
     div#quienesSomosCurvo {
         margin-top: 18%;
     }
-
 }
 @media (max-width:768px) and (min-width:480px) {
 
@@ -2745,6 +2744,9 @@ div#contacto {
     #serviciosCurvo{
       margin-top:18%;
     }
+    div#quienesSomosCurvo{
+      margin-top:33%;
+    }
     div#serviciosCurvoContentMob {
       margin-top: 4%;
     }
@@ -2950,11 +2952,10 @@ div#contacto {
     }
 
     h2.textQuienesSomos{
-      font-size: 23px;
+      font-size: 15px;
       line-height: 1.3em;
       font-weight: initial;
       margin: auto;
-      padding-top: 29%;
       width: 100%;
     }    
     .serviciosContent{
@@ -3196,6 +3197,5 @@ div#contacto {
     right:5em; 
     bottom:1em;
   }  
-
 }
 
