@@ -1548,7 +1548,7 @@ div#contacto {
         width: 50%;
     }
     th#columnNav{
-        width: 50%;
+        width: 60%;
         text-align: right;
         padding-right: 15%;
     }
@@ -1729,6 +1729,14 @@ div#contacto {
     #serviciosCurvoContent{
       display:flex;
     }
+
+    div#umbral{
+      width:100%; 
+      margin:auto; 
+      position:absolute; 
+      right:5em; 
+      bottom:1em;
+    }
 }
 @media (max-width: 1399px) and (min-width: 1024px) {
 
@@ -1812,10 +1820,10 @@ div#contacto {
     }
 
     div#serviciosCurvo{
-      margin-top: 12%;
+      margin-top: 13%;
     }
     div#quienesSomosCurvo{
-      margin-top:12%;
+      margin-top:13%;
     }
 
     img.iconServ {
@@ -2015,6 +2023,14 @@ div#contacto {
     #serviciosCurvoContent{
       display:flex;
     }
+
+    div#umbral{
+      width:100%; 
+      margin:auto; 
+      position:absolute; 
+      right:5em; 
+      bottom:1em;
+    }
 }
 @media (max-width: 1023px) and (min-width:769px) {
     
@@ -2074,7 +2090,7 @@ div#contacto {
       font-size: 26px;
     }
     h2.textQuienesSomos {
-        font-size: 16px;
+        font-size: 21px;
         line-height: 1.6em;
     }
 
@@ -2097,10 +2113,6 @@ div#contacto {
       margin-top:1em; 
       margin-bottom:1em;
       max-width:250px;  
-    }
-
-    .containerCurvo {
-      margin-top:16% !important;
     }
 
     th#columnNav {
@@ -2217,14 +2229,6 @@ div#contacto {
       margin: auto 0;
       margin-right: 15%;
     }
-    img#imgdatafiscal {
-      width: 60px;
-      margin-bottom:3em;
-    }
-    img.imgSocios {
-        width: 140px;
-        margin-left: 1em;
-    }
 
     .socialText{
         font-size: 15px;
@@ -2285,6 +2289,34 @@ div#contacto {
     .servicioCurvoItem{
       width: 25%;
     }    
+
+    div#afipcontainer {
+      margin-top:1em;
+      position: relative;
+      top: 2em;
+    }
+
+    img#imgdatafiscal {
+      width: 40px;
+      margin-bottom:3em;
+    }
+
+    div#umbral{
+      width:100%; 
+      margin:auto; 
+      position:absolute; 
+      right:5em; 
+      bottom:1em;
+    }    
+
+    div#serviciosCurvo {
+        margin-top: 18%;
+    }
+
+    div#quienesSomosCurvo {
+        margin-top: 18%;
+    }
+
 }
 @media (max-width:768px) and (min-width:480px) {
 
@@ -2605,10 +2637,6 @@ div#contacto {
         width:60%;
         margin-right:10%;
     }
-    img.imgSocios{
-        width: 120px;
-        margin-left: 1.7em;
-    }    
 
     .socialText{
         font-size: 15px;
@@ -2644,11 +2672,6 @@ div#contacto {
         font-size: 1em;
         margin-bottom:0;
     }
-    img.imgSocios {
-        width: 54px;
-        margin-left: 1em;
-        margin-top: 1em;
-    }   
 
     #bigContactoTable{
       display:none;
@@ -2698,14 +2721,32 @@ div#contacto {
       color:white;
       font-size:1.1em;
     }
+
+    img#imgdatafiscal {
+      width: 40px;
+      margin-bottom:3em;
+    }
+
+    div#afipcontainer {
+      position:relative;
+      top:2em;
+    } 
+
+    div#umbral{
+      width:100%; 
+      margin:auto; 
+      position:absolute; 
+      right:5em; 
+      bottom:1em;
+    }    
 }
 @media (max-width:479px) and (min-width:320px) {
 
     #serviciosCurvo{
-      margin-top:50%;
+      margin-top:18%;
     }
     div#serviciosCurvoContentMob {
-      margin-top: 10%;
+      margin-top: 4%;
     }
 
     div#serviciosCurvoContainer{
@@ -2726,8 +2767,8 @@ div#contacto {
     }
 
     .servicioCurvoItemMob {
-      margin-top: 2em;
-      margin-bottom: 3em;
+      margin-top: 10px;
+      margin-bottom: 0;
       width: 100%;
       display: inline-table;
     }
@@ -3000,10 +3041,6 @@ div#contacto {
         width:100%;
         text-align:center;
     }
-    img.imgSocios{
-        width: 120px;
-        margin-left: 1.7em;
-    }    
     .socialText{
         font-size: 15px;
         line-height: 1.3em;
@@ -3035,12 +3072,6 @@ div#contacto {
         font-size: 0.85em;
         margin: auto;
     }
-    img.imgSocios {
-      width: 75px;
-      margin-left: 1em;
-      margin-bottom: 2em;
-      margin-top: 1em;
-    }   
 
     div.contactoImgContainer{
         display: flex; 
@@ -3086,12 +3117,36 @@ div#contacto {
     .servicioCurvoItem{
       width: 25%;
     }
+
+    img#imgdatafiscal {
+        width: 40px;
+        margin-bottom: 3em;
+    }
+
+    div#umbral{
+      width:100%; 
+      margin:auto; 
+      position:absolute; 
+      right: 0.1em;
+      bottom: 0.1em;
+    }
+
+    div#afipcontainer {
+      position: relative;
+      top: 3em;
+    }
+
+    #back-to-top {
+      display: none;
+      position: fixed;
+      bottom: 79px;
+    }
 }  
 /* media query de ajuste */
 @media (max-width: 1700px) and (min-width: 1400px){
   
     div#serviciosCurvo {
-      margin-top: 12%;
+      margin-top: 11%;
     }
     div#quienesSomosCurvo {
       margin-top: 12%;
@@ -3100,8 +3155,16 @@ div#contacto {
       width: 62%;
       padding-top:0;
     }
+
+    div#umbral{
+      width:100%; 
+      margin:auto; 
+      position:absolute; 
+      right:5em; 
+      bottom:1em;
+    }    
 }
-@media (max-width: 1200px) and (min-width: 1024px){
+@media (max-width: 1200px) and (min-width: 1025px){
     div#serviciosCurvo {
       margin-top:12%;
     }
@@ -3111,9 +3174,28 @@ div#contacto {
     h2.textQuienesSomos {
       width:88%;
     }
+
+    div#umbral{
+      width:100%; 
+      margin:auto; 
+      position:absolute; 
+      right:5em; 
+      bottom:1em;
+    }    
 }
 @media (max-width: 656px) and (min-width: 481px){
-    
+  div#afipcontainer {
+    position: relative;
+    top: 3em;
+  }
+
+  div#umbral{
+    width:100%; 
+    margin:auto; 
+    position:absolute; 
+    right:5em; 
+    bottom:1em;
+  }  
 
 }
 
