@@ -1420,6 +1420,10 @@ div#contacto {
 /* media query principales */
 @media only screen and (min-width: 1400px) {
 
+    #serviciosCurvoContentMob{
+      display:none;
+    }
+
     div#deco2{
       transform: translateY(28%);
     }
@@ -1512,6 +1516,7 @@ div#contacto {
     h6#serviciosCurvoSubtitle{
       color:white;
       margin-bottom: 4em;
+      font-size:1.2em;
     }
 
     h6.iconServSub{
@@ -1520,9 +1525,6 @@ div#contacto {
     }
 
     div#serviciosCurvoContainer{
-      width:100%; 
-      margin-left:20%; 
-      margin-right:20%; 
       display:flex;
     }
 
@@ -1713,8 +1715,26 @@ div#contacto {
         margin: 1em;
         margin-right:0;
     }    
+
+    div#serviciosCurvoContainer{
+      display:flex;
+      margin-left: 10%;
+      margin-right: 10%;
+    }
+
+    .servicioCurvoItem{
+      width: 25%;
+    }
+
+    #serviciosCurvoContent{
+      display:flex;
+    }
 }
 @media (max-width: 1399px) and (min-width: 1024px) {
+
+    #serviciosCurvoContentMob{
+      display:none;
+    }
 
     div#deco2{
       transform: translateY(36%);
@@ -1983,14 +2003,25 @@ div#contacto {
       margin-bottom: 3em;
     }
     div#serviciosCurvoContainer{
-      width:100%; 
-      margin-left:20%; 
-      margin-right:20%; 
+      display:flex;
+      margin-left:10%;
+      margin-right:10%;
+    }
+
+    .servicioCurvoItem{
+      width: 25%;
+    }
+
+    #serviciosCurvoContent{
       display:flex;
     }
 }
 @media (max-width: 1023px) and (min-width:769px) {
     
+    #serviciosCurvoContentMob{
+      display:none;
+    }
+
     div#footerImgContainer {
         position: absolute;
         bottom: 3em;
@@ -2069,7 +2100,7 @@ div#contacto {
     }
 
     .containerCurvo {
-      margin-top:12em !important;
+      margin-top:16% !important;
     }
 
     th#columnNav {
@@ -2234,16 +2265,16 @@ div#contacto {
     h3#serviciosCurvoTitle{
       color:white; 
       font-family: MontserratBold; 
+      font-size:2em;
     }
 
     h6#serviciosCurvoSubtitle{
       color:white;
       margin-bottom: 2em;
+      font-size: 1.2em;
     }
     div#serviciosCurvoContainer{
       width:100%; 
-      margin-left:20%; 
-      margin-right:20%; 
       display:flex;
     }
 
@@ -2251,8 +2282,49 @@ div#contacto {
       color:white;
       font-size:0.50em;
     }
+    .servicioCurvoItem{
+      width: 25%;
+    }    
 }
 @media (max-width:768px) and (min-width:480px) {
+
+    div#serviciosCurvoContainer{
+      display:none;
+    }
+
+    div#sserviciosCurvoContentMob{
+      display:flex;
+    }
+
+    .serviciosCurvoContainerFila {
+      display: inline-block;
+      width:40%;
+    }
+
+    img.iconServMob {
+      width: 45%;
+    }
+
+    .servicioCurvoItemMob {
+      margin-top: 2em;
+      margin-bottom: 3em;
+      width: 100%;
+      display: inline-table;
+    }
+
+    h6.iconServSubMob{
+      color:white;
+      font-size:1.1em;
+
+    }
+    th.thMob{
+      width:50%;
+      text-align: center;
+    }
+
+    .servicioCurvoItem{
+      width: 50%;
+    }  
 
     .textContainerRecuadro{
       margin: 0 auto;
@@ -2305,7 +2377,7 @@ div#contacto {
       margin: 0;
       margin-left: 10%;
       margin-right: 10%;
-      margin-top:70%;
+      margin-top:25%;
       text-align: center;
     }
     div#quienesSomosCurvo{
@@ -2597,11 +2669,6 @@ div#contacto {
       color:white;
       margin-bottom: 2em;
     }
-    div#serviciosCurvoContainer{
-      width:100%; 
-      margin-top:3em;
-      display:flex;
-    }    
 
     h6.iconServSub{
       color:white;
@@ -2611,27 +2678,68 @@ div#contacto {
     h3#serviciosCurvoTitle{
       color: white;
       font-family: MontserratBold;
-      margin-top: 50%;
-      font-size: 18px;
+      font-size: 1.5em;
       line-height: 29px;
       margin-bottom: 5px;
     }
 
     h6#serviciosCurvoSubtitle{
       color:white;
-      font-size: 1em;
-      margin-top: 1em;
-      margin-bottom: 1em;
+      font-size: 1.1em;
+      margin-top: 2em;
+      margin-bottom: 2em;
     }
 
 
 
     h6.iconServSub{
       color:white;
-      font-size:0.7em;
+      font-size:1.1em;
     }
 }
 @media (max-width:479px) and (min-width:320px) {
+
+    .containerCurvo{
+      margin-top:25%;
+    }
+
+    div#serviciosCurvoContainer{
+      display:none;
+    }
+
+    div#sserviciosCurvoContentMob{
+      display:flex;
+    }
+
+    .serviciosCurvoContainerFila {
+      display: inline-block;
+      width:40%;
+    }
+
+    img.iconServMob {
+      width: 45%;
+    }
+
+    .servicioCurvoItemMob {
+      margin-top: 2em;
+      margin-bottom: 3em;
+      width: 100%;
+      display: inline-table;
+    }
+
+    h6.iconServSubMob{
+      color:white;
+      font-size:1.1em;
+
+    }
+    th.thMob{
+      width:50%;
+      text-align: center;
+    }
+
+    .servicioCurvoItem{
+      width: 50%;
+    }  
 
     .textContainerRecuadro{
       margin: 0 auto;
@@ -2952,29 +3060,28 @@ div#contacto {
     h3#serviciosCurvoTitle{
       color: white;
       font-family: MontserratBold;
-      margin-top: 75px;
-      font-size: 0.8em;
+      font-size: 1.3em;
       margin-bottom: 5px;
     }
 
     h6#serviciosCurvoSubtitle{
       color:white;
       margin-bottom: 0.2em;
-      font-size:0.5em;
+      font-size:0.8em;
     }
     div#serviciosCurvoContainer{
-      width:100%; 
-      margin-top:3em;
-      display:flex;
+      display:none;
     }    
 
     h6.iconServSub{
       color:white;
-      font-size:0.25em;
+      font-size:0.9em;
+    }
+
+    .servicioCurvoItem{
+      width: 25%;
     }
 }  
-
-
 /* media query de ajuste */
 @media (max-width: 1700px) and (min-width: 1400px){
   
@@ -2985,19 +3092,26 @@ div#contacto {
       margin-top: 12%;
     }    
     h2.textQuienesSomos {
-      width: 81%;
+      width: 62%;
+      padding-top:0;
     }
-}
 
+}
 @media (max-width: 1200px) and (min-width: 1024px){
     div#serviciosCurvo {
-      margin-top:20%;
+      margin-top:19%;
     }
     div#quienesSomosCurvo {
       margin-top:24%;
     }    
     h2.textQuienesSomos {
       width:88%;
+    }
+}
+@media (max-width: 656px) and (min-width: 481px){
+    
+    .containerCurvo{
+      margin-top:25%;
     }
 }
 
