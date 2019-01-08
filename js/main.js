@@ -19,9 +19,15 @@ function setSkrollr(){
     });
 }
 
+var test = true;
+
 function adaptarMask(event){
 
   var w = document.documentElement.clientWidth;
+
+  var h = document.documentElement.clientHeight;
+
+  document.getElementById("restest").innerHTML ="res: " + w+"x"+h;
 
   // Slider Mask
   var sliderMaskRatio= 12.6481;

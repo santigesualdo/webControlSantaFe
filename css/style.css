@@ -419,6 +419,8 @@ h2.textQuienesSomos{
     filter: alpha(opacity=80) progid:DXImageTransform.Microsoft.Alpha(opacity=80) progid:DXImageTransform.Microsoft.gradient(startColorstr='#DE2E17',endColorstr='#A71B18' , GradientType=1);
 }
 
+.
+
 
 .darkGradient{
   background : -moz-linear-gradient(0% 50% 0deg,rgba(72, 77, 83, 1) 0%,rgba(62, 66, 72, 1) 21.03%,rgba(43, 48, 54, 1) 67.32%,rgba(37, 41, 47, 1) 100%);
@@ -445,6 +447,10 @@ h2.textQuienesSomos{
 }
 .darkBlue{
   background: #191A37;
+}
+
+.menuBlue{
+  background: rgba(25, 26, 55,0.9);
 }
 
 
@@ -1400,7 +1406,6 @@ img.serviciosItemImg{
 h1#quienesSomosTitle{
     font-family: MontserratBold;
     text-align: center;
-    font-size:30px;
 }
 div#imgServicioContainer{
   text-align: right;
@@ -1415,6 +1420,10 @@ div#contacto {
 
 .textContainerRecuadro{
   width: 100%;
+}
+
+h1#serviciosContentTittle{
+  font-family: MontserratBold;
 }
 
 /* media query principales */
@@ -1619,8 +1628,14 @@ div#contacto {
         letter-spacing: 2px;
     }   
 
+    h1#serviciosContentTittle{
+        font-size: 22px;
+        letter-spacing: 2px;
+    }
+
     .sectionTitle{
         font-size:30px;
+        letter-spacing: 4.45px;
         /*padding-bottom: 0.5em;
         padding-top: 4%;
         padding-left: 15%;
@@ -1869,6 +1884,10 @@ div#contacto {
     h2.titleServicios {
         font-size: 20px;
     }  
+
+    h1#serviciosContentTittle{
+        font-size: 20px;
+    }
     
     img#item1,img#item3,img#item5 {
         float: right;
@@ -1917,6 +1936,7 @@ div#contacto {
     }
     .sectionTitle{
         font-size:28px;
+        letter-spacing: 4.2px;
     }
     .espacioGuion {
       display:none;
@@ -2089,6 +2109,10 @@ div#contacto {
     h2.titleServicios{
       font-size: 26px;
     }
+    h1#serviciosContentTittle{
+      font-size: 26px;
+    }
+
     h2.textQuienesSomos {
         font-size: 21px;
         line-height: 1.6em;
@@ -2178,6 +2202,7 @@ div#contacto {
     }
     .sectionTitle{
         font-size:28px;
+        letter-spacing: 4.2px;
         padding-bottom: 0.5em;
         padding-top: 4%;
         margin-bottom: 1.5em;
@@ -2511,6 +2536,7 @@ div#contacto {
       width: 100%;
       text-align: center;
       font-size: 28px;
+      letter-spacing: 3.9px;
       /*   padding-bottom: 3%; */
       padding-top: 6%;
     }
@@ -2739,14 +2765,39 @@ div#contacto {
       bottom:1em;
     }    
 }
+
+@media (max-width: 400px) and (min-width: 360px){
+    div#quienesSomosCurvo {
+      margin-top: 27%;
+      margin-left: 18%;
+      margin-right: 18%;
+    }  
+
+    #serviciosCurvo{
+      margin-top:14% !important ;
+    }
+
+}
+
+@media (max-width: 359px) and (min-width: 320px){
+    div#quienesSomosCurvo {
+      margin-top: 22%;
+      margin-left: 15%;
+      margin-right: 15%;
+    }  
+}
+
 @media (max-width:479px) and (min-width:320px) {
 
     #serviciosCurvo{
       margin-top:18%;
     }
     div#quienesSomosCurvo{
-      margin-top:33%;
+      margin-top: 33%;
+      margin-left: 10%;
+      margin-right: 10%;
     }
+
     div#serviciosCurvoContentMob {
       margin-top: 4%;
     }
@@ -2765,14 +2816,16 @@ div#contacto {
     }
 
     img.iconServMob {
-      width: 45%;
+      width: 20%;
+      margin-bottom: 1.5em;
+      margin-top: 1.5em;
     }
 
     .servicioCurvoItemMob {
-      margin-top: 10px;
-      margin-bottom: 0;
-      width: 100%;
-      display: inline-table;
+        margin-top: 0;
+        margin-bottom:0;
+        width: 100%;
+        display: inline-table;
     }
 
     h6.iconServSubMob{
@@ -2802,7 +2855,9 @@ div#contacto {
     }
 
     img#seguinos {
-        width: 100%;
+      position: absolute;
+      width: 75%;
+      bottom: 2.5em;
     }
 
     img.iconredes{
@@ -2810,9 +2865,9 @@ div#contacto {
     }
 
     div#footerImgContainer{
-      position: absolute; 
-      bottom: 1em;
-      left: 10%;
+        position: absolute;
+        bottom: 5%;
+        left: 2%;
     }
 
     img#serviciosImg{
@@ -2843,10 +2898,6 @@ div#contacto {
     }
 
     h1#quienesSomosTitle{
-      font-family: MontserratBold;
-      text-align: center;
-      font-size: 28px;
-      letter-spacing: 0;
       transform: translateY(20px);
       margin-top: 1em;
     }    
@@ -2918,10 +2969,14 @@ div#contacto {
         font-size: 17px;
         text-align: center;
     }
+    h1#serviciosContentTittle{
+        font-size: 17px;
+    }
     .sectionTitle{
       width: 100%;
+      letter-spacing: 4.2px;
       text-align: center;
-      font-size: 28px;
+      font-size: 20px;
       padding-top: 20%;
     }
 
@@ -2952,7 +3007,7 @@ div#contacto {
     }
 
     h2.textQuienesSomos{
-      font-size: 15px;
+      font-size: 14px;
       line-height: 1.3em;
       font-weight: initial;
       margin: auto;
@@ -2996,7 +3051,7 @@ div#contacto {
     .recuadroServicios{
         margin-left: 10%;
         margin-right: 10%;
-        margin-bottom: 2%;
+        margin-bottom: 30%;
         display:flex;
     }    
     .recuadroTexto{    
@@ -3112,7 +3167,7 @@ div#contacto {
 
     h6.iconServSub{
       color:white;
-      font-size:0.9em;
+      font-size:0.7em;
     }
 
     .servicioCurvoItem{
@@ -3120,8 +3175,9 @@ div#contacto {
     }
 
     img#imgdatafiscal {
-        width: 40px;
-        margin-bottom: 3em;
+      width: 20px;
+      position: absolute;
+      bottom: 3.5em;
     }
 
     div#umbral{
@@ -3141,6 +3197,8 @@ div#contacto {
       display: none;
       position: fixed;
       bottom: 79px;
+      height: 40px;
+      line-height: 40px;
     }
 }  
 /* media query de ajuste */
@@ -3198,4 +3256,6 @@ div#contacto {
     bottom:1em;
   }  
 }
+
+
 
