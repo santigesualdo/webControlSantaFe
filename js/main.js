@@ -27,7 +27,11 @@ function adaptarMask(event){
 
   var h = document.documentElement.clientHeight;
 
-  document.getElementById("restest").innerHTML ="res: " + w+"x"+h;
+  if (test){
+    document.getElementById("restest").innerHTML ="res: " + w+"x"+h;
+  }else{
+    document.getElementById("restest").innerHTML ="";
+  }
 
   // Slider Mask
   var sliderMaskRatio= 12.6481;
