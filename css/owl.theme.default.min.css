@@ -163,7 +163,7 @@ h1#slide4contentTitle:after {
 }
 
 #myNav{
-	opacity:0.8;
+	opacity:1;
 }
 
 .owl-carousel div h2, .owl-carousel div .textoverlay{
@@ -493,6 +493,10 @@ div#footerMask{
 	}		
 }
 @media (max-width: 768px) and (min-width: 480px) {
+
+	.body{
+		overflow-y:hidden;
+	}
 
 	.img-wrap img {
 	  visibility: hidden;

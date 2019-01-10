@@ -450,7 +450,7 @@ h2.textQuienesSomos{
 }
 
 .menuBlue{
-  background: rgba(25, 26, 55,0.9);
+  background: rgba(25, 26, 55,1);
 }
 
 
@@ -2568,13 +2568,12 @@ h1#serviciosContentTittle{
     }
 
     h2.textQuienesSomos{
-      font-size: 25px;
-      line-height: 1.7em;
+      font-size: 21px;
+      line-height: 1.40em;
       font-weight: initial;
       margin: auto;
       width: 80%;
     }
-
 
     .serviciosContent{
         margin-left: 10%;
